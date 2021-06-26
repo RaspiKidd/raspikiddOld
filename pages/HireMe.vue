@@ -212,7 +212,7 @@
           
             <div class="mt-3">
               <p class="text-lg text-gray-500">
-                Why we teach programming
+                We teach programming because
               </p>
               
               <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
