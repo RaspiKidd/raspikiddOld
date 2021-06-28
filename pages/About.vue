@@ -126,7 +126,7 @@
                             </NuxtLink> -->
         
                             <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                              <img class="flex-shrink-0 h-6 w-6" src="/static/images/microbit.png" alt="micro:bit Image">
+                              <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="micro:bit Image">
                               <div class="ml-4">
                                 <p class="text-base font-medium text-gray-900">
                                   micro:bit Tutorials
@@ -165,10 +165,10 @@
             <span class="block text-red-700 xl:inline"> About </span>
           </h1>
           <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-              <span class="block xl:inline" style="color:#76B82A"> Imagine being able to program a computer that you can pick up and put in your pocket? </span>
+              <span class="block xl:inline" style="color:#76B82A"> Imagine being able to program a computer that you can pick up and put in your pocket </span>
           </h2>
           
-          <p class="pt-10">
+          <p class="pt-10 text-lg tracking-tight text-gray-900 sm:text-4lg md:text-3lg lg:text-2lg xl:text-3lg">
             Here at RaspiKidd we make computing fun and engaging for all by empowering young people through the use of technology and programming using the BBC micro:bit and Raspberry Pi by integrating
             them with the outside world whether this be lighting up an LED, pressing a button or building and controlling robots.
           </p>
