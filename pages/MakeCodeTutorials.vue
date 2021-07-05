@@ -176,7 +176,7 @@
                 <NuxtLink to="/RockPaperScissorsMC" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-scale-down" src="@/static/images/RockpaperScissors.png" alt="Rock Paper Scissors image">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
