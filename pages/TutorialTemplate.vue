@@ -356,7 +356,7 @@
 
               <ol>
                 <li> Click on the 3 dots next to Download. </li>
-                <li> Click on pair device a pop-up will come on screen to hsow you how to connect the micro:bit to the computer. Click on pair device again. </li>
+                <li> Click on pair device a pop-up will come on screen to show you how to connect the micro:bit to the computer. Click on pair device again. </li>
                 <li> Click on BBC micro:bit xxxx and click connect. </li>
                 <li> Click Download. </li>
               </ol>  
