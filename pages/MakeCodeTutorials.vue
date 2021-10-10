@@ -226,6 +226,24 @@
                     </div>
                   </div>
                 </NuxtLink>
+
+                <NuxtLink to="/TrafficLightsMC" class="block mt-2">
+                  <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
+                    </div>
+                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                      <div class="flex-1">
+                        <p class="text-xl font-bold text-red-700">
+                          Traffic Lights add-on board
+                        </p>
+                        <p class="mt-3 text-base text-gray-500">
+                          Create your own micro:bit traffic light add-on board.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </NuxtLink>
               </div>
             </div>
           </div>
