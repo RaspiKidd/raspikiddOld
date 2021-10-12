@@ -216,7 +216,7 @@
                 <li> 
                   Create the following image to represent Paper by typing 9 (this represents the brightness of the LEDs) in the corresponding squares.
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_01.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_01.png" alt="" width="200" height="200">
                     <figcaption> Representation of Paper </figcaption>
                   </figure>
                   Click on the drop-down arrow next to image and click New variable and name it Paper.
@@ -225,7 +225,7 @@
                 <li> 
                   Create the following image to represent Rock by typing 9 within the corresponding squares.
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_02.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_02.png" alt="" width="200" height="200">
                     <figcaption> Representation of Rock </figcaption>
                   </figure>
                   Click on the arrow next to image and click New variable and name it Rock.
@@ -234,13 +234,13 @@
                 <li> 
                   Create the following image to represent Scissors by typing 9 within the corresponding boxes. 
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_03.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_03.png" alt="" width="200" height="200">
                     <figcaption> Representation of Scissors </figcaption>
                   </figure>
                   Click on the arrow next to image and click New variable and name it Scissors.
                   Your code should look like this:
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_04.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_04.png" alt="" width="300" height="200">
                     <figcaption> Your code so far </figcaption>
                   </figure>
                 </li>
@@ -267,7 +267,7 @@
                 <li> 
                   Click on Variables. Click and drag the Paper block to the code area and attach it within Image.HAPPY. Your code should look like this:
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_05.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_05.png" alt="" width="300" height="200">
                     <figcaption> Your code so far. Getting there </figcaption>
                   </figure>
                 </li>
@@ -276,7 +276,7 @@
                 <li> 
                   Right-click on the display.show(Paper) block and click duplicate. Attach the duplicated block within elif choice == 1: block. Click on Paper and choose Rock. Your code should look like this:
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_06.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_06.png" alt="" width="300" height="200">
                     <figcaption> Your code so far. Nearly Finished </figcaption>
                   </figure>
                 </li>
@@ -284,7 +284,7 @@
                 <li> 
                   Right-click on display.show(Rock) and click duplicate. Attach the duplicated block within the else: block. Click on Rock and choose Scissors. Completed Code:
                   <figure>
-                    <img class="w-full rounded-lg" src="@/static/images/RPS_EB_07.png" alt="" width="200" height="200">
+                    <img class="rounded-lg" src="@/static/images/RPS_EB_07.png" alt="" width="300" height="200">
                     <figcaption> Completed Code </figcaption>
                   </figure>
                 </li>
