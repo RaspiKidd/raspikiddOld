@@ -165,7 +165,7 @@
             <div class="relative max-w-7xl mx-auto">
               <div class="text-center">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
-                  micro:bit Tutorials
+                  MicroPython Tutorials
                 </h1>
                 <!-- <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
@@ -173,59 +173,77 @@
               </div>
 
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                <NuxtLink to="/MakeCodeTutorials" class="block mt-2">
+                <NuxtLink to="/RockPaperScissorsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-scale-down" src="@/static/images/MakeCodeIcon.jpeg" alt="MakeCode Logo">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-xl font-bold text-red-700">
-                          MakeCode Tutorials
+                          Rock Paper Scissors
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          All Tutorials coded in the MakeCode drag and drop JavaScript editor.
+                          Learn how to code the classic game rock paper scissors on your micro:bit.
                         </p>
                       </div>
                     </div>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/EduBlocksTutorials" class="block mt-2">
+                <!-- <NuxtLink to="/CreateFitbitMC" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-scale-down" src="@/static/images/EduBlocksIcon.jpeg" alt="EduBlocks Logo">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-xl font-bold text-red-700">
-                          EduBlocks Tutorials
+                          Create Your Own Fitbit
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          All tutorials coded the EduBlocks drag and drop Python editor.
+                          Learn how to create your own Fitbit step counter. <br> </br>
                         </p>
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
 
-                <!-- <a href="#" class="block mt-2">
+                <!-- <NuxtLink to="/EnviroSensingMC" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-scale-down" src="@/static/images/PythonIcon.jpeg" alt="Python Logo">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/EnviroSensing.png" alt="Python Logo">
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-xl font-bold text-red-700">
-                          MicroPython tutorials
+                          Sensing The Environment
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          All tutorials written in MicroPython Will work with the Mu Editor or the online python editor.
+                          Exploring the environment by using the temperature sensor, light sensor and compass on the micro:bit.
                         </p>
                       </div>
                     </div>
                   </div>
-                </a> -->
+                </NuxtLink> -->
+
+                <!-- <NuxtLink to="/TrafficLightsMC" class="block mt-2">
+                  <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
+                    </div>
+                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                      <div class="flex-1">
+                        <p class="text-xl font-bold text-red-700">
+                          Traffic Lights add-on board
+                        </p>
+                        <p class="mt-3 text-base text-gray-500">
+                          Create your own micro:bit traffic light add-on board.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </NuxtLink> -->
               </div>
             </div>
           </div>
