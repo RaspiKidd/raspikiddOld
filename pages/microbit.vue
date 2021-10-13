@@ -209,7 +209,7 @@
                   </div>
                 </NuxtLink>
 
-                <!-- <a href="#" class="block mt-2">
+                <NuxtLink to="/MicroPythonTutorials" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/PythonIcon.jpeg" alt="Python Logo">
@@ -225,7 +225,7 @@
                       </div>
                     </div>
                   </div>
-                </a> -->
+                </NuxtLink>
               </div>
             </div>
           </div>
