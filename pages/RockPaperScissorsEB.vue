@@ -299,9 +299,9 @@
               </h2>
 
               <ol>
-                <li> 1.	Take the micro USB cable and connect the micro:bit to the computer. </li>
-                <li> 2.	Click on Download Hex. </li>
-                <li> 3.	Locate your micro:bit within the file explorer. Click on it to open the drive and click on Save. Once the light on the back of the micro:bit stops blinking your code has finished downloading. </li>
+                <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
+                <li> Click on Download Hex. </li>
+                <li> Locate your micro:bit within the file explorer. Click on it to open the drive and click on Save. Once the light on the back of the micro:bit stops blinking your code has finished downloading. </li>
               </ol>  
 
               <p> 
