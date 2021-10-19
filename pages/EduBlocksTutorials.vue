@@ -191,7 +191,7 @@
                   </div>
                 </NuxtLink>
 
-                <!-- <NuxtLink to="/CreateFitbitMC" class="block mt-2">
+                <NuxtLink to="/CreateFitbitEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
@@ -202,12 +202,12 @@
                           Create Your Own Fitbit
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          Learn how to create your own Fitbit step counter. <br> </br>
+                          Learn how to create your own Fitbit step counter. <br>
                         </p>
                       </div>
                     </div>
                   </div>
-                </NuxtLink> -->
+                </NuxtLink>
 
                 <!-- <NuxtLink to="/EnviroSensingMC" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
