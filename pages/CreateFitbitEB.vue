@@ -207,8 +207,8 @@
               <ol>
                 <li> Open your favourite browser ( we recommend Google Chrome) Within the address bar of the browser type <i> <a href="https://app.edublocks.org/"> app.edublocks.org </a> </i> and press <i> Enter </i>. This will load the EduBlocks coding environment.</li>
                 <li> Click on <i> micro:bit </i> to open the coding editor. </li>
-                <li> Click on <i> Basic </i>. Click and drag a <code> from microbit import * </code> block to the code area and drop it or if you are using the new editor attach it to the <code> # start code here </code> block. </li>
-                <li> Click on <i> Basic</i>. Click and drag a <code> variable = 0 </code> block to the code area attach it under <code> from microbit import * </code> block. </li>
+                <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the code area and drop it or if you are using the new editor attach it to the <i> # start code here </i> block. </li>
+                <li> Click on <i> Basic</i>. Click and drag a <i> variable = 0 </i > block to the code area attach it under <i> from microbit import * </i> block. </li>
                 <li> 
                   Click on <i> Variable </i> and click on <i> New variable… </i> Give it the name <i> steps </i> press <i> Enter </i>. Click on <i> 1 </i> and type <i> 0 </i>.  
                   <figure>
