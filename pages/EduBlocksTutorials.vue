@@ -202,7 +202,7 @@
                           Create Your Own Fitbit
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          Learn how to create your own Fitbit step counter. <br>
+                          Learn how to create your own Fitbit step counter. <br> <br>
                         </p>
                       </div>
                     </div>
@@ -245,7 +245,7 @@
                   </div>
                 </NuxtLink> -->
               
-                <!-- <NuxtLink to="/ThrowGhostEB" class="block mt-2">
+                <NuxtLink to="/ThrowGhostEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/ThrowGhost_cover.png" alt="micro:bit ghost icon">
@@ -261,7 +261,7 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink> -->
+                </NuxtLink>
               </div>
             </div>
           </div>
