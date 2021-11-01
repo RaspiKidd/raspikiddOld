@@ -242,10 +242,10 @@
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it under the <i> if accelerometer.is_gesture(‘shake’): </i> block. </li>
                     <li> Click on <i> Buttons </i>. Click and drag a <i> button_a.is_pressed() </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. </li>
                     <li> Click on <i> Basic </i>. Click and drag an <i> if True(): </i> block to the code area and attach it within the <i> if button_a.is_pressed(): </i> block. </li>
-                    <li> Click on <i> Basic </i>. Click and drag a <i> 0 = 0 </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. Click  on the <i> = </i> and click on <i> < </i>. </li>
-                    <li> Within the first <i> 0 </i> of the <i> if 0 < 0: </i> block type <i> display.read_light_level() </i> and within the 2nd <i> 0 </i> type <i> 100 </i>. </li>
-                    <li> Click on <i> Display </i>. Click and drag a <i> display.show(Image.HAPPY) </i> block to the code area and attach it within the <i> if display.read_lightr_level() < 100: </i> block. </li>
-                    <li> Click on <i> Basic </i>. Click and drag an <i> else: </i> block to the code area and attach it under <i> if display.read_light_level() < 100: </i> block. </li>
+                    <li> Click on <i> Basic </i>. Click and drag a <i> 0 = 0 </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. Click  on the <i> = </i> and click on <i> &lt; </i>. </li>
+                    <li> Within the first <i> 0 </i> of the <i> if 0 &gt; 0: </i> block type <i> display.read_light_level() </i> and within the 2nd <i> 0 </i> type <i> 100 </i>. </li>
+                    <li> Click on <i> Display </i>. Click and drag a <i> display.show(Image.HAPPY) </i> block to the code area and attach it within the <i> if display.read_light_level() &lt; 100: </i> block. </li>
+                    <li> Click on <i> Basic </i>. Click and drag an <i> else: </i> block to the code area and attach it under <i> if display.read_light_level() &lt; 100: </i> block. </li>
                     <li> Click on <i> Display </i>. Click and drag a <i> display.clear() </i> block to the code area and attach it within the <i> else: </i> block. </li>
                     <li> Click on <i> Basic </i>. Click and drag a <i> sleep(1000) </i> block to the code area and attach it under the <i> else: </i> block. Click on <i> 1000 </i> and type <i> 2000 </i> and press <i> Enter </i>. 
                         <figure>
