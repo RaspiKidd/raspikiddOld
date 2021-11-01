@@ -266,10 +266,10 @@
 
                 <ol>
                     <li> Click on Logic. Click and drag an if/else block to the code area and attach it within on button A pressed. </li>
-                    <li> Click on Logic. Click and drag a 0 < 0 block to the code area and attach it within the true of the if then block. </li>
-                    <li> Click on Input. Click and drag the light level block to the code area and attach it within the first 0 of the if 0 < 0 then block. </li>
+                    <li> Click on Logic. Click and drag a 0 &lt; 0 block to the code area and attach it within the true of the if then block. </li>
+                    <li> Click on Input. Click and drag the light level block to the code area and attach it within the first 0 of the if 0 &lt; 0 then block. </li>
                     <li> Click on the 0 and type 100 and press enter. </li>
-                    <li> Click on Basic. Click and drag a show leds block to the code area and attach it within the if light  level < 100 then block. </li>
+                    <li> Click on Basic. Click and drag a show leds block to the code area and attach it within the if light  level &lt; 100 then block. </li>
                     <li> Click on the squares to make the following pattern. </li>
                     <figure>
                         <img class="w-full rounded-lg" src="@/static/images/ES_MC_03.png" alt="" width="500" height="873">
