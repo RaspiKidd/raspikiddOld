@@ -227,7 +227,7 @@
                   </div>
                 </NuxtLink>
 
-                <!-- <NuxtLink to="/TrafficLightsPY" class="block mt-2">
+                <NuxtLink to="/TrafficLightsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
@@ -243,7 +243,7 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink> -->
+                </NuxtLink>
                 
                 <NuxtLink to="/ThrowGhostPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
