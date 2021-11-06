@@ -191,7 +191,7 @@
                   </div>
                 </NuxtLink>
 
-                <!-- <NuxtLink to="/CreateFitbitEB" class="block mt-2">
+                <NuxtLink to="/CreateFitbitEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
@@ -209,7 +209,7 @@
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/EnviroSensingEB" class="block mt-2">
+                <!-- <NuxtLink to="/EnviroSensingEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/EnviroSensing.png" alt="Python Logo">
