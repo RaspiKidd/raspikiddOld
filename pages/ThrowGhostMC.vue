@@ -181,6 +181,16 @@
             </div>
     
             <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+              <div class="bg-red-100 border-l-8 border-red-400 px-8">
+                <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
+                  NOTE:
+                </h3>
+                <!--<img src="@/static/images/lightbulb.svg" alt="" width="20" height="20"> -->
+                <p class="text-gray-900"> 
+                  You do not need a micro:bit to do this tutorial you can use the simulator built into the MakeCode editor.
+                </p>
+              </div>
+
               <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
                 What You Will Learn
               </h2>
@@ -206,30 +216,25 @@
               </h2>
 
               <ol>
-                <li> Open your favourite browser (we recommend Google Chrome) and type <a href="https://app.edublocks.org/"> <i> app.edublocks.org </i> </a> and press <i> Enter </i>. This will load the EduBlocks coding environment. </li>
-                <li> Click on <i> micro:bit </i> to open the micro:bit coding editor. </li>
-                <li> Click on <i> Basic. </i> Click and drag a <i> from microbit import * </i> to the code area and drop it or if you are using the new editor attach it under the <i> # start code here </i> block. </li>
-                <li> Click on <i> Radio. </i> Click and drag an <i> import radio </i> block to the code area and attach it under <i> from microbit import * </i> block. </li>
-                <li> Click on <i> Radio. </i> Click and drag a <i> radio.on() </i> block to the code area and attach it under the <i> import radio </i> block. </li>
-                <li> Click on <i> Radio. </i> Click and drag a <i> radio.config(channel=7) </i> block to the code area and attach it under the <i> radio.on() </i> block. Click on <i> channel=7 </i> and change the <i> 7 </i> to <i> 30 </i>. 
+                <li> Open your favourite browser (we recommend Google Chrome) and type <a href="https://makecode.microbit.org/"> <i> makecode.microbit.org </i> </a> and press <i> Enter </i>. This will load the MakceCode coding editor. </li>
+                <li> Click on <i> New project </i> and give it the name <i> Throw a Ghost </i> and click <i> OK </i>. </li>
+                <li> Click and drag the <i> on forever </i> block to the left and drop it on the <i> bin </i>. </li>
+                <li> Click on <i> Radio </i>. Click and drag a <i> radio set group 1 </i> block to the code area and attach it within the <i> on start </i> block. Click on <i> 1 </i> and type <i> 30 </i>. 
                   <figure>
-                    <img class="rounded-lg" src="@/static/images/ThrowGhost_EB_01.png" alt="" width="300" height="300">
-                    <figcaption> Setting up the code area </figcaption>
+                    <img class="rounded-lg" src="@/static/images/ThrowGhost_MC_01.png" alt="" width="200" height="200">
+                    <figcaption> Configuring the channel for micro:bits to connect over when it starts </figcaption>
                   </figure>
                 </li>
-                <li> Click on <i> Basic </i>. Click and drag a <i> while True: </i> block to the code area and attach it under the <i> radio.config(channel=30) </i> block. </li>
-                <li> Click on <i> Radio </i>. Click and drag an <i> incoming=radio.received() </i> block to the code area and attach it within the <i> while True: </i> block. </li>
-                <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it under <i> incoming=radio.received() </i> block. Click on <i> True </i> and type <i> incoming </i>. </li>
-                <li> Click on <i> Display </i>. Click and drag a <i> display.show(Image.HAPPY) </i> block to the code area and attach it within the <i> if incoming: </i> block. Click on <i> Image.HAPPY </i> and type <i> Image.GHOST </i>. 
-                  <figure>
-                    <img class="rounded-lg" src="@/static/images/ThrowGhost_EB_02.png" alt="" width="300" height="300">
-                    <figcaption> Displaying the ghost on screen </figcaption>
+                <li> Click on <i> Input </i>. Click and drag an <i> on shake </i> block to the code area and drop it. </li>
+                <li> Click on <i> Basic </i>. Click and drag a <i> clear screen </i> block to the code area and attach it within the <i> on shake </i> block. </li>
+                <li> Click on <i> Radio </i>. Click and drag a <i> radio send string “ “ </i> block to the code area and attach it under the <i> clear screen </i> block. Click on the <i> blank space </i> and type <i> GHOST </i>. 
+                   <figure>
+                    <img class="rounded-lg" src="@/static/images/ThrowGhost_MC_02.png" alt="" width="300" height="300">
+                    <figcaption> Clearing the screen and sending string GHOST when the micro:bit is shaken </figcaption>
                   </figure>
                 </li>
-                <li> Click on <i> Basic </i>. Click and drag an <i> if True: </i> block to the code area and attach it under the <i> if incoming: </i> block. </li>
-                <li> Click on <i> Accelerometer </i>. Click and drag an <i> accelerometer.was_gesture(‘shake’) </i> block to the code area and attach it within the <i> True </i> of the <i> if </i> block. </li>
-                <li> Click on <i> Display </i>. Click and drag a <i> display.clear() </i> block to the code area and attach it within the <i> if accelerometer.was_gesture(‘shake’) </i> block. </li>
-                <li> Click on <i> Radio </i>. Click and drag a <i> radio.send(“hello”) </i> block to the code area and attach it under the <i> display.clear() </i> block. Click on <i> “hello” </i> and type <i> ‘GHOST’ </i>. </li>
+                <li> Click on <i> Radio </i>. Click and drag an <i> on radio received received string</i> block to the code area and drop it. </li>
+                <li> Click on <i> Basic </i>. Click and drag a <i> show icon </i> block to the code area and attach it within the <i> on radio received received string </i> block. Click on the <i> heart </i> and pick the <i> ghost icon </i>. </li>
               </ol>
 
               <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
@@ -237,7 +242,7 @@
               </h3>
 
               <figure>
-                    <img class="rounded-lg" src="@/static/images/ThrowGhost_EB_03.png" alt="" width="600" height="600">
+                    <img class="rounded-lg" src="@/static/images/ThrowGhost_MC_03.png" alt="" width="600" height="600">
                     <figcaption> Completed Code </figcaption>
               </figure>
 
@@ -251,7 +256,9 @@
 
               <ol>
                 <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
-                <li> Click on <i> Download Hex </i>. Click on <i> MICROBIT </i> to open the micro:bit drive then click <i> Save </i> to download the code. </li>
+                <li> Click on the <i> three dots </i> next to <i> Download </i>. </li>
+                <li> Click on <i> Connect device </i>. Click <i> Next </i> and click <i> Next </i> again. Click on your micro:bit and click <i> connect </i>. Now click <i> done </i>. </li>
+                <li> Click <i> Download </i>. </li>
               </ol>  
 
               <p> 
