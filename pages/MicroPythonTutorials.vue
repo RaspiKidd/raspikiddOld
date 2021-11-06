@@ -173,7 +173,7 @@
               </div>
 
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                <NuxtLink to="/RockPaperScissorsPY" class="block mt-2">
+                <!-- <NuxtLink to="/RockPaperScissorsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
@@ -261,7 +261,7 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
             </div>
           </div>

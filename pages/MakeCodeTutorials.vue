@@ -244,7 +244,7 @@
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/ThrowGhostMC" class="block mt-2">
+                <!--<NuxtLink to="/ThrowGhostMC" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/ThrowGhost_cover.png" alt="micro:bit ghost icon">
@@ -260,7 +260,7 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
             </div>
           </div>
