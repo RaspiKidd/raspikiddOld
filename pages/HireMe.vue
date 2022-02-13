@@ -20,8 +20,8 @@
 
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+            <!-- Nested Menu -->
+            <!-- <div class="relative">
               <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span> Tutorials </span>
                 <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -39,12 +39,12 @@
               >
                 <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                   <div class="rounded-md bg-white shadow-xs">
-                    <!-- Snipped  -->
+                    
                     <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
-                          <!-- <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
@@ -54,7 +54,7 @@
                                 Raspberry Pi Tutorials
                               </p>
                             </div>
-                          </NuxtLink> -->
+                          </NuxtLink>
 
                           <NuxtLink to="/microbit" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
@@ -67,43 +67,22 @@
                               </p>
                             </div>
                           </NuxtLink>
-
-                          <!-- <router-link to="/ComputerRepair" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/images/computerRepair.svg" alt="CompRepair">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                Computer Repair
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                From a slow computer to a system not turning on we can help.
-                              </p>
-                            </div>
-                          </router-link>
-
-                          <router-link to="SoftwareInstall" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/images/softwareInstall.svg" alt="SoftwareInstall">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                Software Install
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                From Windows to Office.
-                              </p>
-                            </div>
-                          </router-link> -->
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </transition>
-            </div>
+            </div> -->
         
+            <NuxtLink to="/microbit2" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              micro:bit
+            </NuxtLink>
             <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <a href="https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <a href="https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </a>
 

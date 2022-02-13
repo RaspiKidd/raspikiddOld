@@ -18,9 +18,10 @@
 
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-              <!-- <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <!-- Nested Menu -->
+            <!-- <div class="relative">
+               Item active: "text-gray-900", Item inactive: "text-gray-500"
+               <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span> Tutorials </span>
                 <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -70,8 +71,8 @@
                     </div>
                   </div>
                 </div>
-              </transition> -->
-            </div>
+              </transition> 
+            </div> -->
 
             <NuxtLink to="/microbit2" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               micro:bit
@@ -81,7 +82,7 @@
               About
             </NuxtLink>
 
-            <a href= "https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <a href= "https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </a>
 
@@ -172,7 +173,13 @@
                 </h1>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is a small device about half the size of a credit card packed full of features aimed at getting children into computer programming and technology. One thing to note is you need a computer or tablet to program it as it's not a full computer, but it is a microcomputer.
-                </p> <br>
+                </p>
+                <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                  The micro:bit was created by the BBC (British Broadcasting Company) and other partners in the UK (United Kingdom) in 2015. In 2016 they gave one million micro:bits free to schools within the UK.
+                </p>
+                <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+                  The micro:bit is now available for sale around the world. Many countries followed the example of the UK and gave the micro:bits out for free to schools to support the teaching of computer coding. 
+                </p>
                 <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
                   <span class="block xl:inline xl:text-5xl" style="color:#76B82A"> 
                     Tutorials 
