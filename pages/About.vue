@@ -176,7 +176,7 @@
               <span class="block xl:inline" style="color:#76B82A"> Imagine being able to program a computer that you can pick up and put in your pocket </span>
           </h2>
           
-          <p class="pt-10 text-lg tracking-tight text-gray-900 sm:text-4lg md:text-3lg lg:text-2lg xl:text-3lg">
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Here at RaspiKidd we make computing fun and engaging for all by empowering young people through the use of technology and programming using the BBC micro:bit and Raspberry Pi by integrating
             them with the outside world whether this be lighting up an LED, pressing a button or building and controlling robots.
           </p>
@@ -191,7 +191,8 @@
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-center mt-8 space-x-6">
             <a 
-                href="https://www.facebook.com/RaspiKidd" 
+                href="https://www.facebook.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Facebook</span>
@@ -209,6 +210,7 @@
 
             <a 
                 href="https://www.instagram.com/raspikidd/" 
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Instagram</span>
@@ -226,6 +228,7 @@
           
             <a
                 href="https://twitter.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Twitter</span>
@@ -243,6 +246,7 @@
 
             <a
                 href="https://github.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">GitHub</span>
@@ -262,6 +266,7 @@
 
             <a
                 href="mailto:kerry@raspikidd.com"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">GitHub</span>

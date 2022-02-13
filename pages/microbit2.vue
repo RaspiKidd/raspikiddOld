@@ -252,6 +252,7 @@
             <div class="flex justify-center mt-8 space-x-6">
                 <a 
                 href="https://www.facebook.com/RaspiKidd" 
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >
                     <span class="sr-only">Facebook</span>
@@ -269,6 +270,7 @@
 
                 <a 
                 href="https://www.instagram.com/raspikidd/" 
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >
                     <span class="sr-only">Instagram</span>
@@ -285,6 +287,7 @@
                 </a>
                 <a
                 href="https://twitter.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >
                     <span class="sr-only">Twitter</span>
@@ -302,6 +305,7 @@
 
                 <a
                 href="https://github.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >
                     <span class="sr-only">GitHub</span>
@@ -321,6 +325,7 @@
 
                 <a
                 href="mailto:kerry@raspikidd.com"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
                 >
                     <span class="sr-only">GitHub</span>
