@@ -169,7 +169,7 @@
             <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
                   <span class="block text-red-700 xl:inline"> micro:bit </span> <br>
-                  <span class="block xl:inline xl:text-2xl sm:text-2xl" style="color:#76B82A"> micro:bit Educational Specialist</span>
+                  <span class="block xl:inline sm:text-2xl md:text-4xl lg:text-2xl xl:text-2xl " style="color:#76B82A"> micro:bit Educational Specialist</span>
                 </h1>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is a small device about half the size of a credit card packed full of features aimed at getting children into computer programming and technology. One thing to note is you need a computer or tablet to program it as it's not a full computer, but it is a microcomputer.
