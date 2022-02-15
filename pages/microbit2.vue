@@ -184,8 +184,8 @@
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is now available for sale around the world. Many countries followed the example of the UK and gave the micro:bits out for free to schools to support the teaching of computer coding. 
                 </p>
-                <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-                  <span class="block xl:inline xl:text-5xl" style="color:#76B82A"> 
+                <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+                  <span class="block xl:inline" style="color:#76B82A"> 
                     Tutorials 
                   </span>
                 </h2>
