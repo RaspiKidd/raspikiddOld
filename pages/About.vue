@@ -173,13 +173,45 @@
             <span class="block text-red-700 xl:inline"> About </span>
           </h1>
           <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-              <span class="block xl:inline" style="color:#76B82A"> Imagine being able to program a computer that you can pick up and put in your pocket </span>
+            <span class="block xl:inline" style="color:#76B82A"> 
+              Imagine being able to program a computer that you can pick up and put in your pocket
+            </span>
           </h2>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
             Here at RaspiKidd we make computing fun and engaging for all by empowering young people through the use of technology and programming using the BBC micro:bit and Raspberry Pi by integrating
             them with the outside world whether this be lighting up an LED, pressing a button or building and controlling robots.
           </p>
+
+          <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A"> 
+              Founder 
+            </span>
+        </h2>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          Kerry Kidd, founder of RaspiKidd started her tech journey by playing games on the Commodore Vic 20 and Sega Mega Drive (which she still owns) and using a BBC micro in school.
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          Kerry's programming journey started in high school, where she decided she wanted to work within tech, so she went and studied computer science in college, specialising in Software Development. 
+        </p>
+
+         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Fast-forwarding a few years, Kerry read about this new credit-card sized computer coming out called Raspberry Pi developed right here within the UK (United Kingdom). She decided she had to have one, as it combined her love of technology, programming and making. 
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Kerry sought out like-minded people and joined a local makerspace to geek out with them and develop her skills with the Raspberry Pi from here she started doing some paid work this was where RaspiKidd was born. 
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         In 2015 Kerry then heard about this new kid on the block, the BBC micro:bit this time not a full-fledged computer but a microcomputer aimed at getting kids into computer science by the BBC  and partners giving 1 million micro:bits to schools. In 2018 Kerry helped with a young coders conference which showed her more of what this little device could do. She was in love and wanted to raise more awareness around it, so shortly after, she set up <a href="https://micromag.cc/" target="_blank" class= "text-blue-500 hover:text-blue-600">micro:mag </a> along with cofounder Joshua Lowe. 
+        </p> 
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Kerry is now primarily using micro:bits teaching kids and upskill teachers how to use them.
+        </p>        
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
