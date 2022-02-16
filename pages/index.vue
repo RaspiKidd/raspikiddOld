@@ -174,7 +174,7 @@
       
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/microbit2" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+          <NuxtLink to="/microbit" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             micro:bit
           </NuxtLink>
         </div>
