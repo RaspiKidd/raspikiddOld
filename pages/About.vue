@@ -194,23 +194,25 @@
         </p>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          Kerry's programming journey started in high school, where she decided she wanted to work within tech, so she went and studied computer science in college, specialising in Software Development. 
-        </p>
-
-         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Fast-forwarding a few years, Kerry read about this new credit-card sized computer coming out called Raspberry Pi developed right here within the UK (United Kingdom). She decided she had to have one, as it combined her love of technology, programming and making. 
-        </p>
-
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry sought out like-minded people and joined a local makerspace to geek out with them and develop her skills with the Raspberry Pi from here she started doing some paid work this was where RaspiKidd was born. 
-        </p>
-
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         In 2015 Kerry then heard about this new kid on the block, the BBC micro:bit this time not a full-fledged computer but a microcomputer aimed at getting kids into computer science by the BBC  and partners giving 1 million micro:bits to schools. In 2018 Kerry helped with a young coders conference which showed her more of what this little device could do. She was in love and wanted to raise more awareness around it, so shortly after, she set up <a href="https://micromag.cc/" target="_blank" class= "text-blue-500 hover:text-blue-600">micro:mag </a> along with cofounder Joshua Lowe. 
+          After studying computer science at college, Kerry heard about the Raspberry Pi. A credit-card sized computer. That combined her love of electronics, making and tech. From here, she started doing some freelance work. This was where RaspiKidd was born. Over the last few years, Kerry has grown and expanded the business into using the BBC micro:bit. 
         </p> 
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry is now primarily using micro:bits teaching kids and upskill teachers how to use them.
+        Kerry is also the co-founder of 
+        <a href = "https://micromag.cc/"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+        > 
+          micro:mag 
+        </a> 
+        and freelances with 
+        <a href = "https://causewaydigital.io/"
+          target="_blank"
+          class="text-blue-500 hover:text-blue-600"
+        > 
+          Causeway Digital 
+        </a>  
+        developing educational materials for Minecraft. 
         </p>        
         </div>
       </div>
