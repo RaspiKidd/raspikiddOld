@@ -179,8 +179,9 @@
           </h2>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Here at RaspiKidd we make computing fun and engaging for all by empowering young people through the use of technology and programming using the BBC micro:bit and Raspberry Pi by integrating
-            them with the outside world whether this be lighting up an LED, pressing a button or building and controlling robots.
+           Here at RaspiKidd, we make computing fun and engaging for all by empowering young people through technology. 
+           By using the BBC micro:bit and Raspberry Pi. 
+           Integrating them with the outside world by lighting up an LED, pressing a button or robotics.
           </p>
 
           <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
@@ -190,11 +191,15 @@
         </h2>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          Kerry Kidd, founder of RaspiKidd started her tech journey by playing games on the Commodore Vic 20 and Sega Mega Drive (which she still owns) and using a BBC micro in school.
+         Kerry Kidd, the founder of RaspiKidd, started her tech journey by playing games on the 
+         Sega Mega Drive (which she still owns) and using a BBC micro in school.
         </p>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          After studying computer science at college, Kerry heard about the Raspberry Pi. A credit-card sized computer. That combined her love of electronics, making and tech. From here, she started doing some freelance work. This was where RaspiKidd was born. Over the last few years, Kerry has grown and expanded the business into using the BBC micro:bit. 
+          After studying computer science at college, Kerry heard about the Raspberry Pi. A credit-card sized computer. 
+          That combined her love of electronics, making and tech. From here, she started doing some freelance work. 
+          This was where RaspiKidd was born. Over the last few years, Kerry has grown and expanded the business into using the 
+          BBC micro:bit. 
         </p> 
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
