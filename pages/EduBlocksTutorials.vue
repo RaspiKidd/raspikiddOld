@@ -137,7 +137,7 @@
                                                             </div>
                                                         </NuxtLink> -->
         
-                                                        <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                                        <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                                           micro:bit
                                                         </NuxtLink>
 
