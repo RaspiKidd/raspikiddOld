@@ -126,7 +126,7 @@
                                     Raspberry Pi Tutorials
                                   </p>
                                 </div>
-                              </NuxtLink> -->
+                              </NuxtLink>
         
                               <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                 <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
@@ -135,26 +135,12 @@
                                     micro:bit Tutorials
                                   </p>
                                 </div>
+                              </NuxtLink> -->
+
+                              <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                                micro:bit
                               </NuxtLink>
 
-                              <!--<router-link to="/ComputerRepair" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="/images/computerRepair.svg" alt="CompRepair">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    Computer Repair
-                                  </p>
-                                </div>
-                              </router-link>
-
-                              <router-link to="/SoftwareInstall" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="/images/softwareInstall.svg" alt="SoftwareInstall">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    Software Install
-                                  </p>
-                                </div>
-                              </router-link> -->
-        
                               <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                 About
                               </NuxtLink>
