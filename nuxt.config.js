@@ -16,6 +16,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
+    // Google Analytics
+    buildModules: [
+      '@nuxtjs/google-analytics'
+    ],
 
     googleAnalytics: {
       id: 'G-FM9JG7YE71'
@@ -39,8 +43,6 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // Google analytics
-    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
