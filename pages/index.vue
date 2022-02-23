@@ -200,8 +200,59 @@
       <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="home page image">
     </div>
 </main>
+
+<!-- Neswletter form -->
+<div class="bg-white" style ="background-color:#4392F1;">
+      <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+        <div
+          class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
+        >
+          <div class="xl:w-0 xl:flex-1">
+            <h2
+              class="text-2xl font-bold tracking-tight text-red-700 sm:text-3xl"
+            >
+              Sign up to get updates straight to your inbox
+            </h2>
+            <p class="px-4 max-w-3xl mt-3 text-lg leading-6 text-teal-200">
+              Enter your email to be the first to know about the latest news
+            </p>
+          </div>
+          <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+            <form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">
+              <label for="name" class="sr-only">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="text"
+                required
+                class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                placeholder="Enter your name"
+              />
+              <label for="emailAddress" class="sr-only">Email address</label>
+              <input
+                id="emailAddress"
+                name="emailAddress"
+                type="email"
+                autocomplete="email"
+                required
+                class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                placeholder="Enter your email"
+              />
+              <button
+                type="submit"
+                class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                style ="background-color:#76B82A;"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 <!--footer -->
- <footer class="bg-white">
+ <footer class="bg-grey">
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-center mt-8 space-x-6">
           <a 
