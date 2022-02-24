@@ -179,9 +179,10 @@
           </h2>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-           Here at RaspiKidd, we make computing fun and engaging for all by empowering young people through technology. 
-           By using the BBC micro:bit and Raspberry Pi. 
-           Integrating them with the outside world by lighting up an LED, pressing a button or robotics.
+          Here at RaspiKidd, we make computer science fun and engaging for all by 
+          empowering young people. By using the BBC micro:bit and Raspberry Pi. 
+          We integrate them with the outside world by lighting up LEDs, press of
+          a button or through robotics.
           </p>
 
           <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">

@@ -202,10 +202,10 @@
 </main>
 
 <!-- Neswletter form -->
-<div class="bg-white" style ="background-color:#4392F1;">
-      <div class="py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+<div class="bg-white" style="background-color:#99DFEC">
+      <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div
-          class="py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
+          class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
         >
           <div class="xl:w-0 xl:flex-1">
             <h2
