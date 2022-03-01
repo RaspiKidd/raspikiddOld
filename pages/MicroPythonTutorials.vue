@@ -233,8 +233,8 @@
                     </div>
                   </div>
                 </NuxtLink>
-
-                
+              </div>
+              <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#C9E391">
                 <NuxtLink to="/TrafficLightsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
