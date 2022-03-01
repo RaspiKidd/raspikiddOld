@@ -171,7 +171,9 @@
         <span class="block text-red-700 xl:inline"> Making programming fun </span> <br>
         <span class="block xl:inline xl:text-5xl"> through physical computing</span>
       </h1>
-      
+      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+        Integrating micro:bit and Raspberry Pi with the outside world through simple electronics and robots.
+      </p>
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
           <NuxtLink to="/microbit" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
@@ -202,7 +204,7 @@
 </main>
 
 <!-- Neswletter form -->
-<div class="bg-white" style="background-color:#99DFEC">
+<div class="bg-white" style="background-color:#C9E391">
       <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div
           class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
