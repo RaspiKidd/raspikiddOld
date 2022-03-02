@@ -233,8 +233,8 @@
                     </div>
                   </div>
                 </NuxtLink>
-
-                
+              </div>
+              <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#C9E391">
                 <NuxtLink to="/TrafficLightsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
@@ -361,8 +361,14 @@
                 </a>
               </div>
               <p class="mt-8 text-base text-center text-gray-400">
-                &copy; 2021 RaspiKidd. All rights reserved.
-              </p>
+          &copy; 2021 RaspiKidd. All rights reserved. 
+          <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
+        </p>
             </div>
           </footer>
   </div>

@@ -194,7 +194,7 @@
     <div class="relative">
     <!-- <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8"> -->
             <div class="absolute inset-0">
-              <div class="h-1/3 sm:h-2/3" style="background-color:#99DFEC"></div>
+              <div class="h-1/3 sm:h-2/3" style="background-color:#C9E391"></div>
             </div>
             
             <div class="relative max-w-7xl mx-auto">
@@ -354,8 +354,14 @@
                 </a>
             </div>
             <p class="mt-8 text-base text-center text-gray-400">
-                &copy; 2021 RaspiKidd. All rights reserved.
-            </p>
+          &copy; 2021 RaspiKidd. All rights reserved. 
+          <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
+        </p>
         </div>
     </footer>
 </div>
