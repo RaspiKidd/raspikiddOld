@@ -178,92 +178,64 @@
           
             <div class="mt-3">
               <p class="text-lg text-gray-500">
-                We teach programming because
+                We educate kids and teachers how to program computers <br> in a fun and 
+                interactive way.
               </p>
-              
+
               <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
+                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/phone.svg" alt="Phone Icon">
                 <span class="ml-8 text-lg text-gray-500">
-                  Allows kids to create content not just consume it
+                  <p>
+                    07848 692 935
+                  </p>
+                  <p class="mt-1">
+                    Mon-Fri 10am to 6pm GMT
+                  </p>
                 </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    Teaches problem solving and critical thinking
-                  </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    Develops team building
-                  </span>
-                </div>
-
-               <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    New type of literacy and will be a huge part of future jobs
-                  </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/phone.svg" alt="Phone Icon">
-                  <span class="ml-8 text-lg text-gray-500">
-                     <p>
-                      07848 692 935
-                    </p>
-                    <p class="mt-1">
-                      Mon-Fri 10am to 6pm GMT
-                    </p>
-                  </span>
-                </div>
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/email.svg" alt="Email Icon">
-                  <span class="ml-8 text-lg text-gray-500">
-                    kerry@raspikidd.com
-                  </span>
-                </div>
               </div>
-            </div>
-            <!-- Right Side of Screen -->
-            <div class="mt-12 sm:mt-16 md:mt-0">
-              <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
-                Contact Us
-              </h2>
-              <div class="mt-9">
-
-                <!-- Contact form -->
-                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
-                    <div>
-                      <label for="full_name" class="sr-only">Full name</label>
-                      <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" placeholder="Full name">
-                    </div>
-                    <div>
-                      <label for="email" class="sr-only">Email</label>
-                      <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
-                    </div>
-                    <div>
-                      <label for="phone" class="sr-only">Phone</label>
-                      <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
-                    </div>
-                    <div>
-                      <label for="message" class="sr-only">Message</label>
-                      <textarea id="message" name="message" rows="2" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
-                    </div>
-                    <div>
-                      <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                        Submit
-                      </button>
-                    </div>
-                  </form>
+              <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
+                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/email.svg" alt="Email Icon">
+                <span class="ml-8 text-lg text-gray-500">
+                  kerry@raspikidd.com
+                </span>
               </div>
             </div>
           </div>
+          <!-- Right Side of Screen -->
+          <div class="mt-12 sm:mt-16 md:mt-0">
+            <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
+              Contact Us
+            </h2>
+            <div class="mt-9">
+              <!-- Contact form -->
+              <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
+                <div>
+                  <label for="full_name" class="sr-only">Full name</label>
+                  <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" placeholder="Full name">
+                </div>
+              <div>
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
+              </div>
+              <div>
+                <label for="phone" class="sr-only">Phone</label>
+                <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
+              </div>
+              <div>
+                <label for="message" class="sr-only">Message</label>
+                <textarea id="message" name="message" rows="2" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
       <!-- Testimonials -->
       <!-- <section class="bg-gray-200">
         <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:px-6 lg:px-8">

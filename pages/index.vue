@@ -172,7 +172,9 @@
         <span class="block xl:inline xl:text-5xl"> through physical computing</span>
       </h1>
       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-        Integrating micro:bit and Raspberry Pi with the outside world through simple electronics and robots.
+        We do so with the help of microcomputers which are the size of a credit card. 
+        When our students write code, they can see an immediate result, e.g LEDs light 
+        up or robots move about.
       </p>
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">

@@ -179,46 +179,47 @@
           </h2>
           
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          Here at RaspiKidd, we make computer science fun and engaging for all by 
-          empowering young people. By using the BBC micro:bit and Raspberry Pi. 
-          We integrate them with the outside world by lighting up LEDs, press of
-          a button or through robotics.
+            Here at RaspiKidd we educate kids and teachers how to program computers in 
+            a fun and interactive way. We do so with the help of microcomputers which 
+            are the size of a credit card. When our students write code, they can see 
+            an immediate result, e.g LEDs light up or robots move about.
           </p>
 
           <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
             <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A"> 
-              Founder 
+              Who we are 
             </span>
         </h2>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry Kidd, the founder of RaspiKidd, started her tech journey by playing games on the 
-         Sega Mega Drive (which she still owns) and using a BBC micro in school.
+         Kerry Kidd started her tech journey in the early 1990's, when computers were 
+         still in their infancy. After studying computer science at college, Kerry went 
+         on to combine her love of electronics, tech and building things, that make noise 
+         move about and light up this was where RaspiKidd was born.
         </p>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          After studying computer science at college, Kerry heard about the Raspberry Pi. A credit-card sized computer. 
-          That combined her love of electronics, making and tech. From here, she started doing some freelance work. 
-          This was where RaspiKidd was born. Over the last few years, Kerry has grown and expanded the business into using the 
-          BBC micro:bit. 
-        </p> 
-
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-        Kerry is also the co-founder of 
-        <a href = "https://micromag.cc/"
-          target="_blank"
-          class="text-blue-500 hover:text-blue-600"
-        > 
-          micro:mag 
-        </a> 
-        and freelances with 
-        <a href = "https://causewaydigital.io/"
-          target="_blank"
-          class="text-blue-500 hover:text-blue-600"
-        > 
-          Causeway Digital 
-        </a>  
-        developing educational materials for Minecraft. 
+          Kerry is also the co-founder of 
+          <a href = "https://micromag.cc/"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-600"
+          > 
+            micro:mag 
+          </a> 
+          and freelances with 
+          <a href = "https://causewaydigital.io/"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-600"
+          > 
+            Causeway Digital 
+          </a>  
+          developing educational materials for 
+          <a href = "https://education.minecraft.net/en-us"
+            target = "_blank"
+            class = "text-blue-500 hover:text-blue-600"
+          >
+            Minecraft.
+          </a> 
         </p>        
         </div>
       </div>
