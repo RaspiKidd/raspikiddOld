@@ -210,14 +210,14 @@
           > 
             micro:mag 
           </a> 
-          and freelances with 
+          , and she freelances for
           <a href = "https://causewaydigital.io/"
             target="_blank"
             class="text-blue-500 hover:text-blue-600"
           > 
-            Causeway Digital 
+            Causeway Digital
           </a>  
-          developing educational materials for 
+          to develop educational materials for 
           <a href = "https://education.minecraft.net/en-us"
             target = "_blank"
             class = "text-blue-500 hover:text-blue-600"
