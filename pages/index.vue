@@ -173,7 +173,7 @@
       </h1>
       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
         We do so with the help of microcomputers which are the size of a credit card. 
-        When our students write code, they can see an immediate result, e.g LEDs light 
+        When our students write code for the micro:bit and Raspberry Pi etc, they can see an immediate result, e.g LEDs light 
         up or robots move about.
       </p>
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
