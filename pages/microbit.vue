@@ -176,13 +176,19 @@
                   </span>
                 </h2> -->
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                  The micro:bit is a small device about half the size of a credit card packed full of features aimed at getting children into computer programming and technology. One thing to note is you need a computer or tablet to program it as it's not a full computer, but it is a microcomputer.
+                  The micro:bit is a small device about half the size of a credit card. 
+                  It is packed full of features aimed at getting children into computer 
+                  programming and technology. Note that you still need a computer or 
+                  tablet to program it - it is a microcomputer not a full computer. 
                 </p>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                  The micro:bit was created by the BBC (British Broadcasting Company) and other partners in the UK (United Kingdom) in 2015. In 2016 they gave one million micro:bits free to schools within the UK.
+                  The micro:bit was created by the BBC and other partners in the UK 
+                  in 2015. In 2016 they gave away one million free micro:bits to 
+                  schools within the UK to support the teaching of computer coding.
+                  Many other countries followed within the UK's foot steps.
                 </p>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                  The micro:bit is now available for sale around the world. Many countries followed the example of the UK and gave the micro:bits out for free to schools to support the teaching of computer coding. 
+                  The micro:bit is now available for sale around the world.  
                 </p>
             </div>
         </div>
