@@ -185,7 +185,7 @@
                   The micro:bit was created by the BBC and other partners in the UK 
                   in 2015. In 2016 they gave away one million free micro:bits to 
                   schools within the UK to support the teaching of computer coding.
-                  Many other countries followed within the UK's foot steps.
+                  Many other countries followed the UK's foot steps.
                 </p>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is now available for sale around the world.  

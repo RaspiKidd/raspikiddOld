@@ -172,7 +172,7 @@
         <div class="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-9">
           <!-- Left Side of screen -->
           <div>
-            <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
+            <h2 class="text-2xl font-extrabold sm:text-3xl" style = "color:#A42530">
               Why Hire Us?
             </h2>
           
@@ -203,7 +203,7 @@
           </div>
           <!-- Right Side of Screen -->
           <div class="mt-12 sm:mt-16 md:mt-0">
-            <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
+            <h2 class="text-2xl font-extrabold sm:text-3xl" style ="color:#A42530">
               Contact Us
             </h2>
             <div class="mt-9">
