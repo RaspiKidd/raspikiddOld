@@ -168,7 +168,7 @@
   <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
     <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-        <span class="block xl:inline" style="color:#D02530"> Making programming fun </span> <br>
+        <span class="block xl:inline" style="color:#A42530"> Making programming fun </span> <br>
         <span class="block xl:inline xl:text-5xl"> through physical computing</span>
       </h1>
       <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
@@ -206,18 +206,19 @@
 </main>
 
 <!-- Neswletter form -->
-<div class="bg-white" style="background-color:#C9E391">
+<div class="bg-white" style="background-color:#A1C4B5">
       <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
         <div
           class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
         >
           <div class="xl:w-0 xl:flex-1">
             <h2
-              class="text-2xl font-bold tracking-tight text-red-700 sm:text-3xl"
+              class="text-2xl font-bold tracking-tight sm:text-3xl" 
+              style ="color:#0E7452"
             >
               Sign up to get updates straight to your inbox
             </h2>
-            <p class="max-w-3xl mt-3 text-lg leading-6 text-teal-200">
+            <p class="max-w-3xl mt-3 text-lg leading-6" style="color:#A42530">
               Enter your email to be the first to know about the latest news
             </p>
           </div>
