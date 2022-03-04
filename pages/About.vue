@@ -169,9 +169,9 @@
     <main class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+          <!-- <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span class="block xl:inline" style = "color:#A42530"> About </span>
-          </h1>
+          </h1> -->
           <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
             <span class="block xl:inline" style="color:#0E7452"> 
               Imagine being able to program a computer that you can pick up and put in your pocket
@@ -192,7 +192,14 @@
         </h2>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry Kidd started her tech journey in the early 1990's, when computers were 
+         Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. started her tech journey in the early 1990's, when computers were 
+         still in their infancy. After studying computer science at college, Kerry went 
+         on to combine her love of electronics, tech and building things, that make noise 
+         move about and light up this was where RaspiKidd was born.
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Kerry started her tech journey in the early 1990's, when computers were 
          still in their infancy. After studying computer science at college, Kerry went 
          on to combine her love of electronics, tech and building things, that make noise 
          move about and light up this was where RaspiKidd was born.
