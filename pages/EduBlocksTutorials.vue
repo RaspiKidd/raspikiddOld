@@ -172,7 +172,7 @@
             </div>
             <div class="relative max-w-7xl mx-auto">
               <div class="text-center">
-                <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+                <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl" style="color:#A42530">
                   EduBlocks Tutorials
                 </h1>
                 <!-- <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
@@ -188,7 +188,7 @@
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
-                        <p class="text-xl font-bold text-red-700">
+                        <p class="text-xl font-bold" style="color:#A42530">
                           Rock Paper Scissors
                         </p>
                         <p class="mt-3 text-base text-gray-500">
@@ -206,7 +206,7 @@
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
-                        <p class="text-xl font-bold text-red-700">
+                        <p class="text-xl font-bold" style="color:#A42530">
                           Create Your Own Fitbit
                         </p>
                         <p class="mt-3 text-base text-gray-500">
@@ -224,7 +224,7 @@
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
-                        <p class="text-xl font-bold text-red-700">
+                        <p class="text-xl font-bold" style="color:#A42530">
                           Sensing The Environment
                         </p>
                         <p class="mt-3 text-base text-gray-500">
@@ -235,7 +235,7 @@
                   </div>
                 </NuxtLink>
               </div>
-              <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#C9E391">
+              <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#a1c4b5">
                 <NuxtLink to="/TrafficLightsEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
@@ -243,7 +243,7 @@
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
-                        <p class="text-xl font-bold text-red-700">
+                        <p class="text-xl font-bold" style="color:#A42530">
                           Traffic Lights add-on board
                         </p>
                         <p class="mt-3 text-base text-gray-500">
@@ -261,7 +261,7 @@
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
-                        <p class="text-xl font-bold text-red-700">
+                        <p class="text-xl font-bold" style="color:#A42530">
                           Throw a Ghost
                         </p>
                         <p class="mt-3 text-base text-gray-500">
