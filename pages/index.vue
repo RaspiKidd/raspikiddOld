@@ -178,7 +178,7 @@
       </p>
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/microbit" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+          <NuxtLink to="/microbit" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             micro:bit
           </NuxtLink>
         </div>
@@ -218,7 +218,7 @@
             >
               Sign up to get updates straight to your inbox
             </h2>
-            <p class="max-w-3xl mt-3 text-lg leading-6" style="color:#A42530">
+            <p class="max-w-3xl mt-3 text-lg leading-6 font-bold" style="color:#A42530; text-size: 20px;">
               Enter your email to be the first to know about the latest news
             </p>
           </div>
@@ -247,7 +247,7 @@
               <button
                 type="submit"
                 class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
-                style ="background-color:#76B82A;"
+                style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
               >
                 Sign up
               </button>
