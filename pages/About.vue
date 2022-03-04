@@ -192,10 +192,7 @@
         </h2>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. started her tech journey in the early 1990's, when computers were 
-         still in their infancy. After studying computer science at college, Kerry went 
-         on to combine her love of electronics, tech and building things, that make noise 
-         move about and light up this was where RaspiKidd was born.
+         Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. 
         </p>
 
         <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
