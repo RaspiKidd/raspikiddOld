@@ -208,7 +208,7 @@
             target="_blank"
             class="text-blue-500 hover:text-blue-600"
           > 
-            micro:mag 
+            micro:mag
           </a> 
           , and she freelances for
           <a href = "https://causewaydigital.io/"
