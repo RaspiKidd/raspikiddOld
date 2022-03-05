@@ -18,8 +18,8 @@
 
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+            <!-- Nested Menu -->
+            <!-- <div class="relative">
               <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span> Tutorials </span>
                 <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -37,12 +37,12 @@
               >
                 <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                   <div class="rounded-md bg-white shadow-xs">
-                    <!-- Snipped  -->
+                     
                     <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
-                          <!--<NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
@@ -52,9 +52,9 @@
                                 Raspberry Pi Tutorials
                               </p>
                             </div>
-                          </NuxtLink> -->
+                          </NuxtLink> 
 
-                          <NuxtLink to="/microbit" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <NuxtLink to="/microbit2" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
@@ -71,13 +71,17 @@
                   </div>
                 </div>
               </transition>
-            </div>
+            </div> -->
         
+            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              micro:bit
+            </NuxtLink>
+
             <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <a href= "https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <a href= "https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </a>
 
@@ -122,7 +126,7 @@
                                     Raspberry Pi Tutorials
                                   </p>
                                 </div>
-                              </NuxtLink> -->
+                              </NuxtLink>
         
                               <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                 <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="micro:bit Image">
@@ -131,8 +135,12 @@
                                     micro:bit Tutorials
                                   </p>
                                 </div>
-                              </NuxtLink>
+                              </NuxtLink> -->
         
+                              <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                                micro:bit
+                              </NuxtLink>
+
                               <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                 About
                               </NuxtLink>
@@ -160,21 +168,25 @@
   <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
     <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
       <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-        <span class="block text-red-700 xl:inline"> Making programming fun </span> <br>
-        <span class="block xl:inline xl:text-5xl"> through physical computing</span>
+        <span class="block xl:inline" style="color:#A42530"> Making <br> Programming<br> Fun </span> <br>
+        <!--<span class="block xl:inline xl:text-5xl"> through physical computing</span> -->
       </h1>
-      
+      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+        We do so with the help of microcomputers which are the size of a credit card. 
+        When our students write code for the micro:bit and Raspberry Pi etc, they can see an immediate result, e.g LEDs light 
+        up or robots move about.
+      </p>
       <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/microbit" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+          <NuxtLink to="/microbit" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             micro:bit
           </NuxtLink>
         </div>
-       <!-- <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+       <div class="rounded-md shadow sm:mt-0 sm:ml-3">
+          <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             Raspberry Pi
           </NuxtLink> 
-        </div> -->
+        </div>
         <!-- <div class="rounded-md shadow sm:mt-0 sm:ml-3">
           <router-link to="/ComputerRepair" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             Computer Repair
@@ -192,12 +204,65 @@
       <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="home page image">
     </div>
 </main>
+
+<!-- Neswletter form -->
+<div class="bg-white" style="background-color:#A1C4B5">
+      <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+        <div
+          class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
+        >
+          <div class="xl:w-0 xl:flex-1">
+            <h2
+              class="text-2xl font-bold tracking-tight sm:text-3xl" 
+              style ="color:#0E7452"
+            >
+              Sign up to get updates straight to your inbox
+            </h2>
+            <p class="max-w-3xl mt-3 text-lg leading-6 font-bold" style="color:#A42530; text-size: 20px;">
+              Enter your email to be the first to know about the latest news
+            </p>
+          </div>
+          <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+            <form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">
+              <label for="name" class="sr-only">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="text"
+                required
+                class="w-full px-5 py-3 mr-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                placeholder="Enter your name"
+              />
+              <label for="emailAddress" class="sr-only">Email address</label>
+              <input
+                id="emailAddress"
+                name="emailAddress"
+                type="email"
+                autocomplete="email"
+                required
+                class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+                placeholder="Enter your email"
+              />
+              <button
+                type="submit"
+                class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 <!--footer -->
- <footer class="bg-white">
+ <footer class="bg-grey">
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-center mt-8 space-x-6">
           <a 
-            href="https://www.facebook.com/RaspiKidd" 
+            href="https://www.facebook.com/RaspiKidd"
+            target="_blank" 
             class="text-gray-400 hover:text-gray-500"
           >
         <span class="sr-only">Facebook</span>
@@ -214,7 +279,8 @@
       </a>
 
       <a 
-        href="https://www.instagram.com/raspikidd/" 
+        href="https://www.instagram.com/raspikidd/"
+        target="_blank" 
         class="text-gray-400 hover:text-gray-500"
       >
         <span class="sr-only">Instagram</span>
@@ -231,6 +297,7 @@
       </a>
           <a
             href="https://twitter.com/RaspiKidd"
+            target="_blank"
             class="text-gray-400 hover:text-gray-500"
           >
             <span class="sr-only">Twitter</span>
@@ -248,6 +315,7 @@
 
           <a
             href="https://github.com/RaspiKidd"
+            target="_blank"
             class="text-gray-400 hover:text-gray-500"
           >
             <span class="sr-only">GitHub</span>
@@ -267,6 +335,7 @@
 
           <a
              href="mailto:kerry@raspikidd.com"
+             target="_blank"
             class="text-gray-400 hover:text-gray-500"
           >
             <span class="sr-only">GitHub</span>
@@ -278,7 +347,13 @@
           </a>
         </div>
         <p class="mt-8 text-base text-center text-gray-400">
-          &copy; 2021 RaspiKidd. All rights reserved.
+          &copy; 2022 RaspiKidd. All rights reserved. 
+          <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
         </p>
       </div>
  </footer>

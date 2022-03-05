@@ -18,8 +18,8 @@
 
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+            <!-- Nested menu -->
+            <!-- <div class="relative">
               <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span> Tutorials </span>
                 <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -37,12 +37,12 @@
               >
                 <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                   <div class="rounded-md bg-white shadow-xs">
-                    <!-- Snipped  -->
+                    
                     <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
-                          <!-- <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
@@ -52,7 +52,7 @@
                                 Raspberry Pi Tutorials
                               </p>
                             </div>
-                          </NuxtLink> -->
+                          </NuxtLink>
 
                           <NuxtLink to="/microbit" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
@@ -71,13 +71,17 @@
                   </div>
                 </div>
               </transition>
-            </div>
-        
+            </div> -->
+
+            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              micro:bit
+            </NuxtLink>
+
             <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <a href="https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <a href="https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </a>
 
@@ -123,7 +127,7 @@
                                   Raspberry Pi Tutorials
                                 </p>
                               </div>
-                            </NuxtLink> -->
+                            </NuxtLink>
         
                             <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                               <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="micro:bit Image">
@@ -132,8 +136,12 @@
                                   micro:bit Tutorials
                                 </p>
                               </div>
-                            </NuxtLink>
+                            </NuxtLink> -->
         
+                            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                              micro:bit
+                            </NuxtLink>
+
                             <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                               About
                             </NuxtLink>
@@ -161,17 +169,62 @@
     <main class="lg:relative">
       <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-            <span class="block text-red-700 xl:inline"> About </span>
-          </h1>
+          <!-- <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+            <span class="block xl:inline" style = "color:#A42530"> About </span>
+          </h1> -->
           <h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
-              <span class="block xl:inline" style="color:#76B82A"> Imagine being able to program a computer that you can pick up and put in your pocket </span>
+            <span class="block xl:inline" style="color:#0E7452"> 
+              Imagine being able to program a computer that you can pick up and put in your pocket
+            </span>
           </h2>
           
-          <p class="pt-10 text-lg tracking-tight text-gray-900 sm:text-4lg md:text-3lg lg:text-2lg xl:text-3lg">
-            Here at RaspiKidd we make computing fun and engaging for all by empowering young people through the use of technology and programming using the BBC micro:bit and Raspberry Pi by integrating
-            them with the outside world whether this be lighting up an LED, pressing a button or building and controlling robots.
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+            Here at RaspiKidd we educate kids and teachers how to program computers in 
+            a fun and interactive way. We do so with the help of microcomputers which 
+            are the size of a credit card. When our students write code, they can see 
+            an immediate result, e.g LEDs light up or robots move about.
           </p>
+
+          <h2 class=" pt-8 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#A42530"> 
+              Who we are 
+            </span>
+        </h2>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. 
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+         Kerry started her tech journey in the early 1990's, when computers were 
+         still in their infancy. After studying computer science at college, Kerry went 
+         on to combine her love of electronics, tech and building things, that make noise 
+         move about and light up this was where RaspiKidd was born.
+        </p>
+
+        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+          Kerry is also the co-founder of 
+          <a href = "https://micromag.cc/"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-600"
+          > 
+            micro:mag
+          </a> 
+          , and she freelances for
+          <a href = "https://causewaydigital.io/"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-600"
+          > 
+            Causeway Digital
+          </a>  
+          to develop educational materials for 
+          <a href = "https://education.minecraft.net/en-us"
+            target = "_blank"
+            class = "text-blue-500 hover:text-blue-600"
+          >
+            Minecraft.
+          </a> 
+        </p>        
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
@@ -183,7 +236,8 @@
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-center mt-8 space-x-6">
             <a 
-                href="https://www.facebook.com/RaspiKidd" 
+                href="https://www.facebook.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Facebook</span>
@@ -201,6 +255,7 @@
 
             <a 
                 href="https://www.instagram.com/raspikidd/" 
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Instagram</span>
@@ -218,6 +273,7 @@
           
             <a
                 href="https://twitter.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">Twitter</span>
@@ -235,6 +291,7 @@
 
             <a
                 href="https://github.com/RaspiKidd"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">GitHub</span>
@@ -254,6 +311,7 @@
 
             <a
                 href="mailto:kerry@raspikidd.com"
+                target="_blank"
                 class="text-gray-400 hover:text-gray-500"
             >
                 <span class="sr-only">GitHub</span>
@@ -264,8 +322,14 @@
                 </svg>
             </a>
         </div>
-        <p class="mt-8 text-base text-center text-gray-400">
-          &copy; 2021 RaspiKidd. All rights reserved.
+       <p class="mt-8 text-base text-center text-gray-400">
+          &copy; 2022 RaspiKidd. All rights reserved. 
+          <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
         </p>
       </div>
     </footer>
@@ -282,3 +346,4 @@ export default Vue.extend({
 })
 });
 </script>
+

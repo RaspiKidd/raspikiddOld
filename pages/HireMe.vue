@@ -20,8 +20,8 @@
 
           <!-- Desktop Menu -->
           <nav class="hidden md:flex space-x-10">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+            <!-- Nested Menu -->
+            <!-- <div class="relative">
               <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                 <span> Tutorials </span>
                 <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -39,12 +39,12 @@
               >
                 <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                   <div class="rounded-md bg-white shadow-xs">
-                    <!-- Snipped  -->
+                    
                     <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
-                          <!-- <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
@@ -54,7 +54,7 @@
                                 Raspberry Pi Tutorials
                               </p>
                             </div>
-                          </NuxtLink> -->
+                          </NuxtLink>
 
                           <NuxtLink to="/microbit" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                             <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
@@ -67,43 +67,22 @@
                               </p>
                             </div>
                           </NuxtLink>
-
-                          <!-- <router-link to="/ComputerRepair" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/images/computerRepair.svg" alt="CompRepair">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                Computer Repair
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                From a slow computer to a system not turning on we can help.
-                              </p>
-                            </div>
-                          </router-link>
-
-                          <router-link to="SoftwareInstall" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/images/softwareInstall.svg" alt="SoftwareInstall">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                Software Install
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                From Windows to Office.
-                              </p>
-                            </div>
-                          </router-link> -->
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </transition>
-            </div>
+            </div> -->
         
+            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              micro:bit
+            </NuxtLink>
             <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               About
             </NuxtLink>
 
-            <a href="https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+            <a href="https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Blog
             </a>
 
@@ -147,7 +126,7 @@
                                     Raspberry Pi Tutorials
                                   </p>
                                 </div>
-                              </NuxtLink> -->
+                              </NuxtLink>
         
                               <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                 <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
@@ -156,26 +135,12 @@
                                     micro:bit Tutorials
                                   </p>
                                 </div>
+                              </NuxtLink> -->
+
+                              <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
+                                micro:bit
                               </NuxtLink>
 
-                              <!--<router-link to="/ComputerRepair" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="/images/computerRepair.svg" alt="CompRepair">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    Computer Repair
-                                  </p>
-                                </div>
-                              </router-link>
-
-                              <router-link to="/SoftwareInstall" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="/images/softwareInstall.svg" alt="SoftwareInstall">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    Software Install
-                                  </p>
-                                </div>
-                              </router-link> -->
-        
                               <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                 About
                               </NuxtLink>
@@ -200,104 +165,77 @@
         </div>
       </div>
     </div>
-      <main>
+      
+    <main>
     <div class="bg-white">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-9">
           <!-- Left Side of screen -->
           <div>
-            <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
+            <h2 class="text-2xl font-extrabold sm:text-3xl" style = "color:#A42530">
               Why Hire Us?
             </h2>
           
             <div class="mt-3">
               <p class="text-lg text-gray-500">
-                We teach programming because
+                We educate kids and teachers how to program computers <br> in a fun and 
+                interactive way.
               </p>
-              
+
               <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
+                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/phone.svg" alt="Phone Icon">
                 <span class="ml-8 text-lg text-gray-500">
-                  Allows kids to create content not just consume it
+                  <p>
+                    07848 692 935
+                  </p>
+                  <p class="mt-1">
+                    Mon-Fri 10am to 6pm GMT
+                  </p>
                 </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    Teaches problem solving and critical thinking
-                  </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    Develops team building
-                  </span>
-                </div>
-
-               <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/bullets.svg" alt="bullet point">
-                  <span class="ml-8 text-lg text-gray-500">
-                    New type of literacy and will be a huge part of future jobs
-                  </span>
-                </div>
-
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/phone.svg" alt="Phone Icon">
-                  <span class="ml-8 text-lg text-gray-500">
-                     <p>
-                      07848 692 935
-                    </p>
-                    <p class="mt-1">
-                      Mon-Fri 10am to 6pm GMT
-                    </p>
-                  </span>
-                </div>
-                <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-                  <img class="flex-shrink-0 h-6 w-6" src="@/static/images/email.svg" alt="Email Icon">
-                  <span class="ml-8 text-lg text-gray-500">
-                    kerry@raspikidd.com
-                  </span>
-                </div>
               </div>
-            </div>
-            <!-- Right Side of Screen -->
-            <div class="mt-12 sm:mt-16 md:mt-0">
-              <h2 class="text-2xl font-extrabold text-red-600 sm:text-3xl">
-                Contact Us
-              </h2>
-              <div class="mt-9">
-
-                <!-- Contact form -->
-                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
-                    <div>
-                      <label for="full_name" class="sr-only">Full name</label>
-                      <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" placeholder="Full name">
-                    </div>
-                    <div>
-                      <label for="email" class="sr-only">Email</label>
-                      <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
-                    </div>
-                    <div>
-                      <label for="phone" class="sr-only">Phone</label>
-                      <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
-                    </div>
-                    <div>
-                      <label for="message" class="sr-only">Message</label>
-                      <textarea id="message" name="message" rows="2" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
-                    </div>
-                    <div>
-                      <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                        Submit
-                      </button>
-                    </div>
-                  </form>
+              <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
+                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/email.svg" alt="Email Icon">
+                <span class="ml-8 text-lg text-gray-500">
+                  kerry@raspikidd.com
+                </span>
               </div>
             </div>
           </div>
+          <!-- Right Side of Screen -->
+          <div class="mt-12 sm:mt-16 md:mt-0">
+            <h2 class="text-2xl font-extrabold sm:text-3xl" style ="color:#A42530">
+              Contact Us
+            </h2>
+            <div class="mt-9">
+              <!-- Contact form -->
+              <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
+                <div>
+                  <label for="full_name" class="sr-only">Full name</label>
+                  <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" placeholder="Full name">
+                </div>
+              <div>
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Email">
+              </div>
+              <div>
+                <label for="phone" class="sr-only">Phone</label>
+                <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone">
+              </div>
+              <div>
+                <label for="message" class="sr-only">Message</label>
+                <textarea id="message" name="message" rows="2" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Message"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
       <!-- Testimonials -->
       <!-- <section class="bg-gray-200">
         <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:px-6 lg:px-8">
@@ -411,13 +349,14 @@
           </div> 
         </div>
       </section> -->
-  </main>
+    </main>
   <!-- Footer -->
   <footer class="bg-white">
     <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
       <div class="flex justify-center mt-8 space-x-6">
         <a 
           href="https://www.facebook.com/RaspiKidd" 
+          target="_blank"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">Facebook</span>
@@ -434,7 +373,8 @@
         </a>
 
         <a 
-          href="https://www.instagram.com/raspikidd/" 
+          href="https://www.instagram.com/raspikidd/"
+          target="_blank"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">Instagram</span>
@@ -452,6 +392,7 @@
           
         <a
           href="https://twitter.com/RaspiKidd"
+          target="_blank"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">Twitter</span>
@@ -469,6 +410,7 @@
 
         <a
           href="https://github.com/RaspiKidd"
+          target="_blank"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">GitHub</span>
@@ -488,6 +430,7 @@
 
         <a
             href="mailto:kerry@raspikidd.com"
+            target="_blank"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">GitHub</span>
@@ -499,8 +442,14 @@
         </a>
       </div>
       <p class="mt-8 text-base text-center text-gray-400">
-        &copy; 2021 RaspiKidd. All rights reserved.
-      </p>
+          &copy; 2022 RaspiKidd. All rights reserved. 
+          <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
+        </p>
     </div>
   </footer>
   </div>

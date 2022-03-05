@@ -15,7 +15,15 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    // Google Analytics
+    buildModules: [
+      '@nuxtjs/google-analytics'
+    ],
+
+    googleAnalytics: {
+      id: 'G-FM9JG7YE71'
+    },
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
