@@ -168,13 +168,13 @@
         <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
             <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-                  <span class="block xl:inline" style="color:#A42530"> Coming soon... </span>
+                  <span class="block xl:inline" style="color:#A42530"> Raspberry Pi </span>
                 </h1>
                  <!--<h2 class=" pt-8 text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl">
                   <span class="block xl:inline" style="color:#76B82A"> 
                     The micro:bit Educational Specialist 
                   </span>
-                </h2>
+                </h2> -->
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is a small device about half the size of a credit card packed full of features aimed at getting children into computer programming and technology. One thing to note is you need a computer or tablet to program it as it's not a full computer, but it is a microcomputer.
                 </p>
@@ -183,11 +183,11 @@
                 </p>
                 <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
                   The micro:bit is now available for sale around the world. Many countries followed the example of the UK and gave the micro:bits out for free to schools to support the teaching of computer coding. 
-                </p> -->
+                </p>
             </div>
         </div>
         <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-            <img class="absolute inset-0 w-full h-full object-cover" src="/images/RaspberryPi.png" alt="micro:bit Educational Specialist - Getting started with micro:bit">
+            <img class="absolute inset-0 w-full h-full object-cover" src="/images/RPi01.jpeg" alt="micro:bit Educational Specialist - Getting started with micro:bit">
         </div>
     </main>
     <!-- Tutorial Block -->
@@ -376,5 +376,4 @@ export default Vue.extend({
 })
 });
 </script>
-
 
