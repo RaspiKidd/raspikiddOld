@@ -92,6 +92,10 @@
             <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
               Hire Us
             </NuxtLink>
+
+            <NuxtLink to="/LessonPacks" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+              Lessons
+            </NuxtLink>
           </nav>
       <!-- Desktop Menu END -->
     </div>
@@ -160,6 +164,7 @@
                                <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                 Hire Us
                                </NuxtLink>
+
                                <NuxtLink to="/LessonPacks" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
                                 Lessons
                                </NuxtLink>
