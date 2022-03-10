@@ -375,7 +375,7 @@
   </div>
 </template>
 
-<script lang="ts">
+ <script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({
@@ -388,10 +388,9 @@ export default Vue.extend({
 
 <script language="JavaScript">
 var password; 
-var pass1="SECRET_PASSWORD"; 
+var pass1="HelloWorld"; 
 password=prompt('Enter Password',' '); 
 if (password==pass1) 
 alert('Correct Password! Click OK to Enter!'); 
-else { window.location="https://raspikidd.com/"; 
-} 
+else { window.location="https://raspikidd.com/";} 
 </script>
