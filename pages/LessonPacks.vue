@@ -181,25 +181,25 @@
               </div>
 
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                <NuxtLink to="/RockPaperScissorsEB" class="block mt-2">
+                <NuxtLink to="/GettingStartedMB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
-                      <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
+                      <img class="h-48 w-full object-scale-down" src="@/static/images/microbit.png" alt="Rock Paper Scissors image">
                     </div>
                     <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                       <div class="flex-1">
                         <p class="text-xl font-bold" style="color:#A42530">
-                          Rock Paper Scissors
+                          Getting Started Guide
                         </p>
                         <p class="mt-3 text-base text-gray-500">
-                          Learn how to code the classic game rock paper scissors on your micro:bit.
+                          An introduction to the BBC micro:bit and how to program it
                         </p>
                       </div>
                     </div>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/CreateFitbitEB" class="block mt-2">
+                <!-- <NuxtLink to="/CreateFitbitEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
@@ -215,9 +215,9 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
 
-                <NuxtLink to="/EnviroSensingEB" class="block mt-2">
+                <!-- <NuxtLink to="/EnviroSensingEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/EnviroSensing.png" alt="Python Logo">
@@ -233,10 +233,10 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#a1c4b5">
-                <NuxtLink to="/TrafficLightsEB" class="block mt-2">
+                <!-- <NuxtLink to="/TrafficLightsEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
@@ -252,9 +252,9 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
               
-                <NuxtLink to="/ThrowGhostEB" class="block mt-2">
+                <!-- <NuxtLink to="/ThrowGhostEB" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">
@@ -270,7 +270,7 @@
                       </div>
                     </div>
                   </div>
-                </NuxtLink>
+                </NuxtLink> -->
               </div>
             </div>
           </div>
@@ -392,5 +392,5 @@ var pass1="HelloWorld";
 password=prompt('Enter Password',' '); 
 if (password==pass1) 
 alert('Correct Password! Click OK to Enter!'); 
-else { window.location="https://raspikidd.com/";} 
+else { window.location="https://dev.raspikidd.com/";} 
 </script>
