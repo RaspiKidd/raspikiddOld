@@ -189,7 +189,7 @@
                 <li> Lesson Plan </li>
                 <li> Slide Deck </li>
                 <li> Teaching Notes </li>
-                <li> Student Handout </li>
+                <!-- <li> Student Handout </li> -->
               </ul>
              <!--  <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
                 What You Will Need
@@ -288,7 +288,7 @@
                             <span class="ml-2 flex-1 w-0 truncate"> Lesson Plan </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                            <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU5Tqzy6tfhHojtg25s5PeABrwp1a4TCs8kkMY2jKgrQVQ?e=gd9esG" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
                           </div>
                         </li>
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
@@ -297,7 +297,7 @@
                             <span class="ml-2 flex-1 w-0 truncate"> Slide Deck </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                            <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU9l0Rw2w-pFmrmixI-TyLIBTbbsLpM5mubRseBWRfWRXw?e=vwfVTy" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
                           </div>
                         </li>
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
@@ -306,10 +306,10 @@
                             <span class="ml-2 flex-1 w-0 truncate"> Teaching Notes </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                            <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EUB8CPEIcpFKuiVrtUcpxUQBDa0VlBiOD7oOU9OuI1V30Q?e=UhQvQz" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
                           </div>
                         </li>
-                        <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                        <!-- <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Student handout download"/>
                             <span class="ml-2 flex-1 w-0 truncate"> Student Handout </span>
@@ -317,7 +317,7 @@
                           <div class="ml-4 flex-shrink-0">
                             <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
                           </div>
-                        </li>
+                        </li> -->
                       </ul>
                     </dd>
                   </div>
