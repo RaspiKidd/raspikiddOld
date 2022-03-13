@@ -167,30 +167,30 @@
         <!-- main -->
         <div class="relative py-16 bg-white overflow-hidden">
           <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
+            <!-- Circuit board image -->
             <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
               <img class="absolute top-12 left-full transform translate-x-32" width="404" height="384"  fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute top-12 right-full transform -translate-x-32" width="404" height="384"  fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
-              <img class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
+              <!-- <img class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute top-1/2 left-full transform -translate-y-1/2 translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
-              <img class="absolute bottom-12 right-full transform -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
+              <img class="absolute bottom-12 right-full transform -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg"> -->
             </div>
           </div>
           <div class="relative px-4 sm:px-6 lg:px-8">
             <div class="text-lg max-w-prose mx-auto">
-              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-red-700">
+              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl" style="color: #a42530">
                 Getting Started with micro:bit
               </h1>
             </div>
             <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
               <p> Within this pack you will have access to: </p>
               <ul>
-                <li> A lesson plan. </li>
-                <li> A slide deck. </li>
-                <li> Teaching Notes. </li>
-                <li> Student handout. </li>
+                <li> Lesson Plan </li>
+                <li> Slide Deck </li>
+                <li> Teaching Notes </li>
+                <li> Student Handout </li>
               </ul>
-
              <!--  <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
                 What You Will Need
               </h2>
@@ -276,32 +276,53 @@
               <p> 
                 You have created your own Fitbit step counter why not connect a battery pack and strap your micro:bit to your ankle and go for a walk and see how many steps you have done at the end.
               </p> -->
-               <ul role="list" class="mt-6 border-t border-b border-gray-200 divide-y divide-gray-200">
-      <li v-for="(item, itemIdx) in items" :key="itemIdx">
-        <div class="relative group py-4 flex items-start space-x-3">
-          <div class="flex-shrink-0">
-            <span :class="[item.iconColor, 'inline-flex items-center justify-center h-10 w-10 rounded-lg']">
-              <component :is="item.icon" class="h-6 w-6 text-white" aria-hidden="true" />
-            </span>
-          </div>
-          <div class="min-w-0 flex-1">
-            <div class="text-sm font-medium text-gray-900">
-              <a :href="item.href">
-                <span class="absolute inset-0" aria-hidden="true" />
-                {{ item.name }}
-              </a>
-            </div>
-            <p class="text-sm text-gray-500">{{ item.description }}</p>
-          </div>
-          <div class="flex-shrink-0 self-center">
-            <ChevronRightIcon class="h-5 w-5 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
-          </div>
-        </div>
-      </li>
-    </ul>
-    <div class="mt-6 flex">
-      <a href="#" class="text-sm font-medium text-indigo-600 hover:text-indigo-500">Or start from an empty project<span aria-hidden="true"> &rarr;</span></a>
-    </div>
+              <div class="border-t border-gray-200 px-4 py-5 sm:px-6">
+                <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
+                  <div class="sm:col-span-2">
+                    <dt class="text-md font-medium text-gray-500" style="color: #a42530">Downloads</dt>
+                    <dd class="mt-1 text-sm text-gray-900">
+                      <ul role="list" class="border border-gray-200 rounded-md divide-y divide-gray-200">
+                        <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                          <div class="w-0 flex-1 flex items-center">
+                            <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Lesson plan download" />
+                            <span class="ml-2 flex-1 w-0 truncate"> Lesson Plan </span>
+                          </div>
+                          <div class="ml-4 flex-shrink-0">
+                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                          </div>
+                        </li>
+                        <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                          <div class="w-0 flex-1 flex items-center">
+                            <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Slide deck download"/>
+                            <span class="ml-2 flex-1 w-0 truncate"> Slide Deck </span>
+                          </div>
+                          <div class="ml-4 flex-shrink-0">
+                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                          </div>
+                        </li>
+                        <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                          <div class="w-0 flex-1 flex items-center">
+                            <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Teaching Notes download"/>
+                            <span class="ml-2 flex-1 w-0 truncate"> Teaching Notes </span>
+                          </div>
+                          <div class="ml-4 flex-shrink-0">
+                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                          </div>
+                        </li>
+                        <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
+                          <div class="w-0 flex-1 flex items-center">
+                            <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Student handout download"/>
+                            <span class="ml-2 flex-1 w-0 truncate"> Student Handout </span>
+                          </div>
+                          <div class="ml-4 flex-shrink-0">
+                            <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
             </div>
           </div>
         </div>
@@ -413,46 +434,6 @@ export default Vue.extend({
   /*name: "microbit",*/
   data: () => ({
     isOpen: false,
-})
+  }),
 });
-</script>
-
-<script>
-/* import { ChevronRightIcon } from '@heroicons/vue/solid'
-import { CalendarIcon, SpeakerphoneIcon, TerminalIcon } from '@heroicons/vue/outline' */
-
-const items = [
-  {
-    name: 'Marketing Campaign',
-    description: 'I think the kids call these memes these days.',
-    href: '#',
-    /* iconColor: 'bg-pink-500',
-    icon: SpeakerphoneIcon, */
-  },
-  {
-    name: 'Engineering Project',
-    description: 'Something really expensive that will ultimately get cancelled.',
-    href: '#',
-    /* iconColor: 'bg-purple-500',
-    icon: TerminalIcon, */
-  },
-  {
-    name: 'Event',
-    description: 'Like a conference all about you that no one will care about.',
-    href: '#',
-    /* iconColor: 'bg-yellow-500',
-    icon: CalendarIcon, */
-  },
-]
-
-export default {
-  components: {
-    /* ChevronRightIcon, */
-  },
-  setup() {
-    return {
-      items,
-    }
-  },
-}
 </script>
