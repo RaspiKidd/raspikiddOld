@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-gray-50">
+    <div v-if="isUnlocked" class="relative bg-gray-50">
         <div class="relative bg-white shadow">
             <div class="max-w-7xl mx-auto px-4 sm:px-6">
                 <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
@@ -375,22 +375,28 @@
   </div>
 </template>
 
- <script lang="ts">
+<script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({
   /*name: "microbit",*/
-  data: () => ({
-    isOpen: false,
-})
+  data() { 
+    return {
+      isOpen: false,
+      isUnlocked: false,
+    }
+  },
+  mounted() {
+    let password; 
+    const pass1 = "HelloWorld"; 
+    password = prompt('Enter Password',' '); 
+    if ( password === pass1 ){
+      this.isUnlocked = true;
+      alert('Correct Password! Click OK to Enter!'); 
+    }
+    else { 
+      location.href = "https://dev.raspikidd.com/";
+    } 
+  }
 });
-</script>
-
-<script language="JavaScript">
-var password; 
-var pass1="HelloWorld"; 
-password=prompt('Enter Password',' '); 
-if (password==pass1) 
-alert('Correct Password! Click OK to Enter!'); 
-else { window.location="https://dev.raspikidd.com/";} 
 </script>
