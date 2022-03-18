@@ -184,7 +184,8 @@
               </h1>
             </div>
             <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-              <p> Within this pack you will have access to: </p>
+              <p> 
+              <p> Here is the Lesson pack for getting started with micro:bit. Within this pack you will have access to: </p>
               <ul>
                 <li> Lesson Plan </li>
                 <li> Slide Deck </li>
@@ -285,7 +286,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Lesson plan download" />
-                            <span class="ml-2 flex-1 w-0 truncate"> Lesson Plan </span>
+                            <span class="ml-2 flex-1 w-0 truncate">  Getting Started Lesson Plan </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU5Tqzy6tfhHojtg25s5PeABrwp1a4TCs8kkMY2jKgrQVQ?e=gd9esG" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -294,7 +295,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Slide deck download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Slide Deck </span>
+                            <span class="ml-2 flex-1 w-0 truncate">  Getting Started Slide Deck </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU9l0Rw2w-pFmrmixI-TyLIBTbbsLpM5mubRseBWRfWRXw?e=vwfVTy" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -303,7 +304,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Teaching Notes download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Teaching Notes </span>
+                            <span class="ml-2 flex-1 w-0 truncate"> Getting Started Teaching Notes </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EUB8CPEIcpFKuiVrtUcpxUQBDa0VlBiOD7oOU9OuI1V30Q?e=UhQvQz" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -312,7 +313,7 @@
                         <!-- <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Student handout download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Student Handout </span>
+                            <span class="ml-2 flex-1 w-0 truncate"> Getting Started Student Handout </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="#" class="font-medium" style="color: #0e7452"> Download </a>
