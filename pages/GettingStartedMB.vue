@@ -171,10 +171,10 @@
             <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
               <img class="absolute top-12 left-full transform translate-x-32" width="404" height="384"  fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute top-12 right-full transform -translate-x-32" width="404" height="384"  fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
-              <!-- <img class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
+              <img class="absolute top-1/2 right-full transform -translate-y-1/2 -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute top-1/2 left-full transform -translate-y-1/2 translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
               <img class="absolute bottom-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
-              <img class="absolute bottom-12 right-full transform -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg"> -->
+              <img class="absolute bottom-12 right-full transform -translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384" src="@/static/images/circuit-board.svg">
             </div>
           </div>
           <div class="relative px-4 sm:px-6 lg:px-8">
@@ -183,99 +183,38 @@
                 Getting Started with micro:bit
               </h1>
             </div>
-            <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-              <p> Within this pack you will have access to: </p>
+            <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">              
+              <p> Here is the Lesson pack for getting started with micro:bit. Within this pack you will have access to: </p>
               <ul>
                 <li> Lesson Plan </li>
                 <li> Slide Deck </li>
                 <li> Teaching Notes </li>
                 <!-- <li> Student Handout </li> -->
               </ul>
-             <!--  <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
-                What You Will Need
-              </h2>
-              <ul>
-                <li> 1 x micro:bit. </li>
-                <li> 1 x micro USB cable. </li>
-                <li> 1 x Battery pack for the micro:bit (optional). </li>
-              </ul>
               <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
-                Coding
+                Lesson Plan
               </h2>
-
-              <ol>
-                <li> Open your favourite browser ( we recommend Google Chrome) Within the address bar of the browser type <i> <a href="https://app.edublocks.org/"> app.edublocks.org </a> </i> and press <i> Enter </i>. This will load the EduBlocks coding environment.</li>
-                <li> Click on <i> micro:bit </i> to open the coding editor. </li>
-                <li> Click on <i> Basic </i>. Click and drag a <i> from microbit import * </i> block to the code area and drop it or if you are using the new editor attach it to the <i> # start code here </i> block. </li>
-                <li> Click on <i> Basic</i>. Click and drag a <i> variable = 0 </i > block to the code area attach it under <i> from microbit import * </i> block. </li>
-                <li> 
-                  Click on <i> Variable </i> and click on <i> New variable… </i> Give it the name <i> steps </i> press <i> Enter </i>. Click on <i> 1 </i> and type <i> 0 </i>.  
-                  <figure>
-                    <img class="rounded-lg" src="@/static/images/FitBit_EB_01.png" alt="" width="500" height="500">
-                    <figcaption> Initiating the step counter to 0 </figcaption>
-                  </figure>
-                </li>
-                <div class="bg-blue-100 border-l-8 border-blue-400 px-8">
-                  <h3 class="text-2xl tracking-tight font-extrabold sm:text-4xl md:text-4xl lg:text-3xl xl:text-4xl" style="color:#006494">
-                    What is a variable
-                  </h3>
-                  <p class="text-gray-900"> 
-                    Think of a variable as a box that stores information that can be used throughout our program. 
-                    We give variables a descriptive name so we and others can understand what is going on within our program.
-                  </p>
-                </div>
-                <li> Click on <i> Basic</i>. Click and drag a <code> while True: </code> block to the code area and attach it under <code> steps = 0 </code> block. </li>
-                <li> Click on <i> Basic</i>. Click and drag an <code> if True: </code> block to the code area and attach it within the <code> while True: </code> block. </li>
-                <li> Click on <i> Accelerometer</i>. Click and drag an <code> accelerometer.is_gesture(‘shake’) </code> block and attach it within the <code> True </code> of the <code> if </code> block. </li>
-                <li> Click on <i> Basic</i>. Click and drag a <code> variable = 1 </code> block to the code area and attach it within the <code> if accelerometer.is_gesture(‘shake’) </code> block. Click on <i> Variable </i> and click <i> steps </i>. Click on the <i> = </i> and click <i> += </i>. </li>
-                <li> Click on <i> Display</i>. Click and drag a <code> display.scroll(0) </code> block to the code area and attach it under <code> steps += 1 </code> block. </li>
-                <li> 
-                  Click on <i> Variables</i>. Click and drag a <code> steps </code> block to the code area and attach it within the <code> 0 </code> of the <code> display.scroll </code> block. 
-                  <figure>
-                    <img class="rounded-lg" src="@/static/images/FitBit_EB_02.png" alt="" width="500" height="500">
-                    <figcaption> Increasing the step counter by 1 everytime the micro:bit detects a shake and displays the number of steps on the LED matrix </figcaption>
-                  </figure>
-                </li>
-                <li> Click on <i> Basic</i>. Click and drag an <code> if True(): </code> block to the code area and attach it under the <code> if accelerometer.is_gesture(‘shake’): </code> block. </li>
-                <li> Click on <i> Buttons</i>. Click and drag a <code> button_a.is_pressed(): </code> block to the code area and attach it within the <code> True </code> of the <code> if </code> block. </li>
-                <li> 
-                  Right-click on <i> steps = 0 </i> and click <i> duplicate </i> and attach the duplicated block within the <code> if button_.is_pressed(): </code> block. 
-                  <figure>
-                    <img class="rounded-lg" src="@/static/images/FitBit_EB_03.png" alt="" width="500" height="500">
-                    <figcaption> Resets the step counter to 0 </figcaption>
-                  </figure>
-                </li>
-                <li> Right-click on <code> if button_a.is_pressed(): </code> block and click <i> duplicate </i> and attach it under the <code> if button_a.is_pressed(): </code> block. Click on <i> a </i> and click <i> b </i>. </li>
-                <li> Click and drag the <code> steps = 0 </code> block to the left menu to delete it. </li>
-                <li> 
-                  Right-click on <code> display.scroll(steps) </code> block and click <i> duplicate</i>. Attach the duplicated block within the <code> if button_b.is_pressed(): </code>  block. 
-                  <p> This will display the amount of steps you have done so far when you press the B button on the micro:bit. </p>
-                </li>
-              </ol>
-
-              <p> <b> Completed Code: </b> </p>
-
-              <figure>
-                <img class="rounded-lg" src="@/static/images/FitBit_EB_04.png" alt="" width="500" height="500">
-                <figcaption> Completed Code </figcaption>
-              </figure>
-
-              <p> 
-                Now that we have completed the code we need to download it to the micro:bit.
+              <p>
+                The lesson plan contains what you need to complete the lesson, Learning objectives and 
+                structure of the lesson. As well as space for notes and improvements that can be made.
+              </p> 
+              
+              <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
+                Slide deck
+              </h2>
+              <p>
+                The slide deck contains all the details you need to teach the students how to get started 
+                with the micro:bit.
               </p>
               
               <h2 class="text-3xl tracking-tight font-extrabold sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#76B82A">
-                Downloading the Code
+                Teaching Notes
               </h2>
-
-              <ol>
-                <li> Take the micro USB cable and connect the micro:bit to the computer. </li>
-                <li> Click on Download Hex. Click on your micro:bit drive to open it and click save. </li>
-              </ol>  
-
               <p> 
-                You have created your own Fitbit step counter why not connect a battery pack and strap your micro:bit to your ankle and go for a walk and see how many steps you have done at the end.
-              </p> -->
+                The teaching notes gives detailed instructions of how the activity can be used within the 
+                classroom as well as an overview of the micro:bit classroom function which helps teachers 
+                keep control of a whole class from 1 computer.
+              </p>
               <div class="border-t border-gray-200 px-4 py-5 sm:px-6">
                 <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
                   <div class="sm:col-span-2">
@@ -285,7 +224,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Lesson plan download" />
-                            <span class="ml-2 flex-1 w-0 truncate"> Lesson Plan </span>
+                            <span class="ml-2 flex-1 w-0 truncate">  Getting Started Lesson Plan </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU5Tqzy6tfhHojtg25s5PeABrwp1a4TCs8kkMY2jKgrQVQ?e=gd9esG" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -294,7 +233,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Slide deck download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Slide Deck </span>
+                            <span class="ml-2 flex-1 w-0 truncate">  Getting Started Slide Deck </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU9l0Rw2w-pFmrmixI-TyLIBTbbsLpM5mubRseBWRfWRXw?e=vwfVTy" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -303,7 +242,7 @@
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Teaching Notes download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Teaching Notes </span>
+                            <span class="ml-2 flex-1 w-0 truncate"> Getting Started Teaching Notes </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EUB8CPEIcpFKuiVrtUcpxUQBDa0VlBiOD7oOU9OuI1V30Q?e=UhQvQz" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
@@ -312,7 +251,7 @@
                         <!-- <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
                           <div class="w-0 flex-1 flex items-center">
                             <img class="flex-shrink-0 h-5 w-5" src="@/static/images/paperclip.svg" alt="Student handout download"/>
-                            <span class="ml-2 flex-1 w-0 truncate"> Student Handout </span>
+                            <span class="ml-2 flex-1 w-0 truncate"> Getting Started Student Handout </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
                             <a href="#" class="font-medium" style="color: #0e7452"> Download </a>

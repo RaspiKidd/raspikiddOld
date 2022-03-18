@@ -396,6 +396,7 @@ export default Vue.extend({
     }
     else { 
       location.href = "https://dev.raspikidd.com/";
+      // location.href = "https://raspikidd.com/";
     } 
   }
 });
