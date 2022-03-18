@@ -395,8 +395,8 @@ export default Vue.extend({
       alert('Correct Password! Click OK to Enter!'); 
     }
     else { 
-      location.href = "https://dev.raspikidd.com/";
-      // location.href = "https://raspikidd.com/";
+      // location.href = "https://dev.raspikidd.com/";
+      location.href = "https://raspikidd.com/";
     } 
   }
 });
