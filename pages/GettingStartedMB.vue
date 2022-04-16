@@ -227,7 +227,7 @@
                             <span class="ml-2 flex-1 w-0 truncate">  Getting Started Lesson Plan </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href = "./static/GettingStartedMB/LessonPlan.pdf" target="_blank" class="font-medium" style="color: #0e7452"> 
+                            <a href = "/GettingStartedMB/LessonPlan.pdf" target="_blank" class="font-medium" style="color: #0e7452"> 
                               Download
                             </a>
                           </div>
@@ -238,7 +238,9 @@
                             <span class="ml-2 flex-1 w-0 truncate">  Getting Started Slide Deck </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EU9l0Rw2w-pFmrmixI-TyLIBTbbsLpM5mubRseBWRfWRXw?e=vwfVTy" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
+                            <a href="/GettingStartedMB/SlideDeck.pdf" target="_blank" class="font-medium" style="color: #0e7452"> 
+                              Download 
+                            </a>
                           </div>
                         </li>
                         <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
@@ -247,7 +249,9 @@
                             <span class="ml-2 flex-1 w-0 truncate"> Getting Started Teaching Notes </span>
                           </div>
                           <div class="ml-4 flex-shrink-0">
-                            <a href="https://edukidd-my.sharepoint.com/:b:/g/personal/kerry_raspikidd_com1/EUB8CPEIcpFKuiVrtUcpxUQBDa0VlBiOD7oOU9OuI1V30Q?e=UhQvQz" target="_blank" class="font-medium" style="color: #0e7452"> Download </a>
+                            <a href="/GettingStartedMB/TeacherNotes.pdf" target="_blank" class="font-medium" style="color: #0e7452"> 
+                              Download 
+                            </a>
                           </div>
                         </li>
                         <!-- <li class="pl-3 pr-4 py-3 flex items-center justify-between text-sm">
