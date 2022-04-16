@@ -178,7 +178,7 @@
         </div>
 
         <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          <NuxtLink to="/RockPaperScissorsMC" class="block mt-2">
+          <NuxtLink to="/microbitTutorials/MakeCodeTutorials/RockPaperScissorsMC" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
@@ -197,7 +197,7 @@
             </div>
           </NuxtLink>
 
-          <NuxtLink to="/CreateFitbitMC" class="block mt-2">
+          <NuxtLink to="/microbitTutorials/MakeCodeTutorials/CreateFitbitMC" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
@@ -215,7 +215,7 @@
             </div>
           </NuxtLink>
 
-          <NuxtLink to="/EnviroSensingMC" class="block mt-2">
+          <NuxtLink to="/microbitTutorials/MakeCodeTutorials/EnviroSensingMC" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="@/static/images/EnviroSensing.png" alt="Python Logo">
@@ -235,7 +235,7 @@
         </div>
 
         <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#A1C4B5">
-          <NuxtLink to="/TrafficLightsMC" class="block mt-2">
+          <NuxtLink to="/microbitTutorials/MakeCodeTutorials/TrafficLightsMC" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
@@ -253,7 +253,7 @@
             </div>
           </NuxtLink>
                 
-          <NuxtLink to="/ThrowGhostMC" class="block mt-2">
+          <NuxtLink to="/microbitTutorials/MakeCodeTutorials/ThrowGhostMC" class="block mt-2">
             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
               <div class="flex-shrink-0">
                 <img class="h-48 w-full object-scale-down" src="@/static/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">

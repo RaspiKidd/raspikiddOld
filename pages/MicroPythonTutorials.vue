@@ -180,7 +180,7 @@
               </div>
 
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-                <NuxtLink to="/RockPaperScissorsPY" class="block mt-2">
+                <NuxtLink to="/microbitTutorials/PythonTutorials/RockPaperScissorsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/RockPaperScissors.png" alt="Rock Paper Scissors image">
@@ -198,7 +198,7 @@
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/CreateFitbitPY" class="block mt-2">
+                <NuxtLink to="/microbitTutorials/PythonTutorials/CreateFitbitPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/counter.jpeg" alt="micro:bit counter">
@@ -216,7 +216,7 @@
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/EnviroSensingPY" class="block mt-2">
+                <NuxtLink to="microbitTutorials/PythonTutorials/EnviroSensingPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/EnviroSensing.png" alt="Python Logo">
@@ -235,7 +235,7 @@
                 </NuxtLink>
               </div>
               <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none" style="background-color:#A1C4B5">
-                <NuxtLink to="/TrafficLightsPY" class="block mt-2">
+                <NuxtLink to="/microbitTutorials/PythonTutorials/TrafficLightsPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/TrafficLights03.jpg" alt="carboard traffic lights">
@@ -253,7 +253,7 @@
                   </div>
                 </NuxtLink>
                 
-                <NuxtLink to="/ThrowGhostPY" class="block mt-2">
+                <NuxtLink to="/microbitTutorials/PythonTutorials/ThrowGhostPY" class="block mt-2">
                   <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                     <div class="flex-shrink-0">
                       <img class="h-48 w-full object-scale-down" src="@/static/images/ThrowGhost_Cover.png" alt="micro:bit ghost icon">
