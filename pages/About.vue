@@ -1,6 +1,7 @@
 <template>
   <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">
+      <!-- <Menu /> -->
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -16,7 +17,7 @@
             </button>
           </div>
 
-          <!-- Desktop Menu -->
+          <!-- Desktop Menu --> 
           <nav class="hidden md:flex space-x-10">
             <!-- Nested menu -->
             <!-- <div class="relative">
@@ -338,12 +339,18 @@
 
 <script lang="ts">
 import Vue from "vue";
+/*import Menu from "@/components/Menu.vue"; */
 
 export default Vue.extend({
-  /*name: "About",*/
+
   data: () => ({
     isOpen: false,
 })
 });
+/* export default {
+  components: {
+    Menu
+  }
+} */
 </script>
 
