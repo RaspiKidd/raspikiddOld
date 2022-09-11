@@ -24,42 +24,42 @@
             <span class="block xl:inline sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style="color:#A42530"> 
               Who we are 
             </span>
-        </h2>
+          </h2>
 
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. 
-        </p>
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+            Kerry Kidd is the micro:bit Educational Specialist and Raspberry Pi Certified Educator. 
+          </p>
 
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-         Kerry started her tech journey in the early 1990's, when computers were 
-         still in their infancy. After studying computer science at college, Kerry went 
-         on to combine her love of electronics, tech and building things, that make noise 
-         move about and light up this was where RaspiKidd was born.
-        </p>
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+            Kerry started her tech journey in the early 1990's, when computers were 
+            still in their infancy. After studying computer science at college, Kerry went 
+            on to combine her love of electronics, tech and building things, that make noise 
+            move about and light up this was where RaspiKidd was born.
+          </p>
 
-        <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          Kerry is also the co-founder of 
-          <a href = "https://micromag.cc/"
-            target="_blank"
-            class="text-blue-500 hover:text-blue-600"
-          > 
-            micro:mag
-          </a> 
-          , and she freelances for
-          <a href = "https://causewaydigital.io/"
-            target="_blank"
-            class="text-blue-500 hover:text-blue-600"
-          > 
-            Causeway Digital
-          </a>  
-          to develop educational materials for 
-          <a href = "https://education.minecraft.net/en-us"
-            target = "_blank"
-            class = "text-blue-500 hover:text-blue-600"
-          >
-            Minecraft.
-          </a> 
-        </p>        
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+            Kerry is also the co-founder of 
+            <a href = "https://micromag.cc/"
+              target="_blank"
+              class="text-blue-500 hover:text-blue-600"
+            > 
+              micro:mag
+            </a> 
+            , and she freelances for
+            <a href = "https://causewaydigital.io/"
+              target="_blank"
+              class="text-blue-500 hover:text-blue-600"
+            > 
+              Causeway Digital
+            </a>  
+            to develop educational materials for 
+            <a href = "https://education.minecraft.net/en-us"
+              target = "_blank"
+              class = "text-blue-500 hover:text-blue-600"
+            >
+              Minecraft.
+            </a> 
+          </p>        
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
@@ -178,16 +178,7 @@ import Header from "~/components/Header.vue";
 export default Vue.extend({
   components: {
     Header,
-}
-
-  /* data: () => ({
-    isOpen: false,
-}) */
-});
-/* export default {
-  components: {
-    Menu
   }
-} */
+});
 </script>
 

@@ -1,208 +1,29 @@
 <template>
   <div class="relative bg-gray-50">
-    <div class="relative bg-white shadow">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6">
-        <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-          <div class="flex justify-start lg:w-0 lg:flex-1">
-            <NuxtLink to="/">
-              <span class="sr-only">Workflow</span>
-              <img class="h-8 w-auto sm:h-20" src="@/static/RaspiKidd.svg" alt="Logo">
-            </NuxtLink>
-          </div>
-          
-          <div class="-mr-2 -my-2 md:hidden">
-            <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
-              <span class="sr-only">Open menu</span>
-            </button>
-          </div>
-
-          <!-- Desktop Menu -->
-          <nav class="hidden md:flex space-x-10">
-            <!-- Nested Menu -->
-            <!-- <div class="relative">
-              <button type="button" @click="isOpen =!isOpen" class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-                <span> Tutorials </span>
-                <svg class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                </svg>
-              </button>
-
-              <transition
-                enter-active-class="transition ease-out duration-200 transform"
-                enter-class="opacity-0 translate-y-1"
-                enter-to-class="opacity-100 translate-y-0"
-                leave-active-class="transition ease-in duration-150"
-                leave-class="opacity-100 translate-y-0"
-                leave-to-class="opacity-0 translate-y-1"
-              >
-                <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
-                  <div class="rounded-md bg-white shadow-xs">
-                     
-                    <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
-                      <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                      
-                          <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                Raspberry Pi
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                Raspberry Pi Tutorials
-                              </p>
-                            </div>
-                          </NuxtLink> 
-
-                          <NuxtLink to="/microbit2" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
-                            <div class="ml-4">
-                              <p class="text-base font-medium text-gray-900">
-                                micro:bit
-                              </p>
-                              <p class="mt-1 text-sm text-gray-500">
-                                BBC micro:bit Tutorials
-                              </p>
-                            </div>
-                          </NuxtLink>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </transition>
-            </div> -->
-        
-            <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+    <Header />
+    <main class="lg:relative">
+      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
+        <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+            <span class="block xl:inline" style="color:#A42530"> Making <br> Programming<br> Fun </span> <br>
+            <!--<span class="block xl:inline xl:text-5xl"> through physical computing</span> -->
+          </h1>
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+            We do so with the help of microcomputers which are the size of a credit card. 
+            When our students write code for the micro:bit and Raspberry Pi etc, they can see an immediate result, e.g LEDs light 
+            up or robots move about.
+          </p>
+        <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
+          <div class="rounded-md shadow sm:mt-0 sm:ml-3">
+            <NuxtLink to="/microbit" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
               micro:bit
             </NuxtLink>
-
-            <NuxtLink to="/RaspberryPi" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              Raspberry Pi
-            </NuxtLink>
-
-            <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              About
-            </NuxtLink>
-
-            <a href= "https://blog.raspikidd.com/" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              Blog
-            </a>
-
-            <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              Hire Us
-            </NuxtLink>
-
-            <NuxtLink to="/LessonPacks" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
-              Lessons
-            </NuxtLink>
-          </nav>
-      <!-- Desktop Menu END -->
-    </div>
-  </div>
-  <!-- Mobile Menu -->
-  <div class="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
-            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-              <div class="pt-5 pb-6 px-5">
-                <div class="flex items-center justify-between">
-                  <NuxtLink to="/">
-                    <img class="h-8 w-auto sm:h-10" src="@/static/RaspiKidd.svg" alt="Logo">
-                  </NuxtLink>
-                  <div class="-mr-2">
-                    <button type="button" @click="isOpen = !isOpen" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                      <span class="sr-only">Open menu</span>
-                      <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                      </svg>
-                    </button>
-                    <transition
-                      enter-active-class="duration-200 ease-out"
-                      enter-class="opacity-0 scale-95"
-                      enter-to-class="opacity-100 scale-100"
-                      leave-active-class="duration-100 ease-in"
-                      leave-class="opacity-100 scale-100"
-                      leave-to-class="opacity-0 scale-95"
-                    >
-                      <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
-                        <div class="rounded-md bg-white shadow-xs">
-                          <div class="mt-6">
-                            <nav class="grid gap-y-8">
-                             <!-- <NuxtLink to="/RaspberryPi" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Raspberry Pi Image">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    Raspberry Pi Tutorials
-                                  </p>
-                                </div>
-                              </NuxtLink>
-        
-                              <NuxtLink to="/microbit" class="rounded-t bg-white hover:bg-gray-400 -m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="micro:bit Image">
-                                <div class="ml-4">
-                                  <p class="text-base font-medium text-gray-900">
-                                    micro:bit Tutorials
-                                  </p>
-                                </div>
-                              </NuxtLink> -->
-        
-                              <NuxtLink to="/microbit" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                micro:bit
-                              </NuxtLink>
-
-                              <NuxtLink to="/RaspberryPi" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                Raspberry Pi
-                              </NuxtLink>
-
-                              <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                About
-                              </NuxtLink>
-                      
-                              <a href="https://blog.raspikidd.com/" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                Blog
-                              </a>
-
-                               <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                Hire Us
-                               </NuxtLink>
-
-                               <NuxtLink to="/LessonPacks" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 p-3">
-                                Lessons
-                               </NuxtLink>
-                            </nav>
-                          </div>
-                        </div>
-                      </div>
-                    </transition>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-</div>
-
-<main class="lg:relative">
-  <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
-    <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
-      <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-        <span class="block xl:inline" style="color:#A42530"> Making <br> Programming<br> Fun </span> <br>
-        <!--<span class="block xl:inline xl:text-5xl"> through physical computing</span> -->
-      </h1>
-      <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-        We do so with the help of microcomputers which are the size of a credit card. 
-        When our students write code for the micro:bit and Raspberry Pi etc, they can see an immediate result, e.g LEDs light 
-        up or robots move about.
-      </p>
-      <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
-        <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/microbit" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-            micro:bit
-          </NuxtLink>
-        </div>
-       <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-            Raspberry Pi
-          </NuxtLink> 
-        </div>
+          <div class="rounded-md shadow sm:mt-0 sm:ml-3">
+            <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+              Raspberry Pi
+            </NuxtLink> 
+          </div>
         <!-- <div class="rounded-md shadow sm:mt-0 sm:ml-3">
           <router-link to="/ComputerRepair" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
             Computer Repair
@@ -218,60 +39,55 @@
   </div>
   <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
       <img class="absolute inset-0 w-full h-full object-cover" src="/images/PhysicalComputing.jpg" alt="home page image">
-    </div>
+  </div>
 </main>
 
 <!-- Neswletter form -->
 <div class="bg-white" style="background-color:#A1C4B5">
-      <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-        <div
-          class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center"
-        >
-          <div class="xl:w-0 xl:flex-1">
-            <h2
-              class="text-2xl font-bold tracking-tight sm:text-3xl" 
-              style ="color:#0E7452"
-            >
-              Sign up to get updates straight to your inbox
-            </h2>
-            <p class="max-w-3xl mt-3 text-lg leading-6 font-bold" style="color:#A42530; text-size: 20px;">
-              Enter your email to be the first to know about the latest news
-            </p>
-          </div>
-          <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-            <form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">
-              <label for="name" class="sr-only">Name</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                autocomplete="text"
-                required
-                class="w-full px-5 py-3 mr-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
-                placeholder="Enter your name"
-              />
-              <label for="emailAddress" class="sr-only">Email address</label>
-              <input
-                id="emailAddress"
-                name="emailAddress"
-                type="email"
-                autocomplete="email"
-                required
-                class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
-                placeholder="Enter your email"
-              />
-              <button
-                type="submit"
-                class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
-                style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
-              >
-                Sign up
-              </button>
-            </form>
-          </div>
-        </div>
+  <div class="px-6 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
+    <div class="px-6 py-6 bg-teal-600 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
+      <div class="xl:w-0 xl:flex-1">
+        <h2 class="text-2xl font-bold tracking-tight sm:text-3xl" style ="color:#0E7452">
+          Sign up to get updates straight to your inbox
+        </h2>
+        <p class="max-w-3xl mt-3 text-lg leading-6 font-bold" style="color:#A42530; text-size: 20px;">
+          Enter your email to be the first to know about the latest news
+        </p>
+      </div>
+      <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
+        <form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">
+          <label for="name" class="sr-only">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autocomplete="text"
+            required
+            class="w-full px-5 py-3 mr-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+            placeholder="Enter your name"
+          />
+          <label for="emailAddress" class="sr-only">Email address</label>
+          <input
+            id="emailAddress"
+            name="emailAddress"
+            type="email"
+            autocomplete="email"
+            required
+            class="w-full px-5 py-3 placeholder-gray-500 border-white rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white"
+            placeholder="Enter your email"
+          />
+          <button
+            type="submit"
+            class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+            style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
+          >
+            Sign up
+          </button>
+        </form>
       </div>
     </div>
+  </div>
+</div>
 <!--footer -->
  <footer class="bg-grey">
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
@@ -378,12 +194,12 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Header from "~/components/Header.vue";
 
 export default Vue.extend({
-  /*name: "index", */
-  data: () => ({
-    isOpen: false,
-})
+    components: { 
+      Header 
+    }
 });
 </script>
 
