@@ -170,7 +170,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "Menu",
+  name: "Header",
   data: () => ({
     isOpen: false,
 })
