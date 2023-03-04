@@ -24,7 +24,7 @@
             </div>
           
             <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+              <NuxtLink to="/TutorialLayout" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
                 Raspberry Pi
               </NuxtLink> 
             </div>

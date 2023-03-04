@@ -89,7 +89,7 @@
                 </a>
             </div>
             <p class="mt-8 text-base text-center text-gray-400">
-          &copy; 2022 RaspiKidd. All rights reserved. 
+          &copy; 2023 RaspiKidd. All rights reserved. 
           <a 
           class ="text-blue-500" 
           href= "/privacy_policy.pdf"
