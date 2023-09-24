@@ -44,8 +44,8 @@
               </h2>
               <div class="mt-9">
                 <!-- Contact form -->
-                <!--<form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">-->
-                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify>
+                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
+                <!--<form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify>-->
                   <div>
                     <label for="full_name" class="sr-only">Full name</label>
                     <input 
@@ -98,7 +98,7 @@
                 class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
                 style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
               >
-                Sign up
+                Submit
               </button>
                   </div>
                 </form>
