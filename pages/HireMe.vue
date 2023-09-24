@@ -93,9 +93,13 @@
                     </textarea>
                   </div>
                   <div>
-                    <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px">
-                      Submit
-                    </button>
+                    <button
+                type="submit"
+                class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
+                style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 22px"
+              >
+                Sign up
+              </button>
                   </div>
                 </form>
               </div>
