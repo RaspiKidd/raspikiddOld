@@ -24,7 +24,7 @@
             </div>
           
             <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-              <NuxtLink to="/RaspberryPi" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+              <NuxtLink to="/TutorialLayout" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
                 Raspberry Pi
               </NuxtLink> 
             </div>
@@ -64,7 +64,9 @@
           </div>
       
           <div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-            <form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">
+
+            <!--<form class="md:flex" name="Newsletter" netlify action="https://formspree.io/f/moqrdzdn" method="POST">-->
+            <form class="md:flex" name="Newsletter" netlify>
               <label for="name" class="sr-only">Name</label>
               <input
                 id="name"
