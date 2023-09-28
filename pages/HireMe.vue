@@ -46,7 +46,7 @@
                 <!-- Contact form -->
                 <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
                 <!--<form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify>-->
-                  <div>
+                  <!--<div>-->
                     <label for="full_name" class="sr-only">Full name</label>
                     <input 
                       id="name"
@@ -57,8 +57,8 @@
                       class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-red-400 focus:border-red-500 border-gray-300 rounded-md" 
                       placeholder="Full name"
                     />
-                  </div>
-                  <div>
+                 <!-- </div> 
+                  <div> -->
                     <label for="email" class="sr-only">Email</label>
                     <input 
                       id="email" 
@@ -69,8 +69,8 @@
                       class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
                       placeholder="Email"
                     />
-                  </div>
-                  <div>
+                  <!--</div>
+                  <div>-->
                     <label for="phone" class="sr-only">Phone</label>
                     <input 
                     id="phone"
@@ -80,8 +80,8 @@
                     class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
                     placeholder="Phone"
                   />
-                  </div>
-                  <div>
+                  <!--</div>
+                  <div>-->
                     <label for="message" class="sr-only">Message</label>
                     <textarea 
                       id="message" 
@@ -91,8 +91,8 @@
                       class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" 
                       placeholder="Message">
                     </textarea>
-                  </div>
-                  <div>
+                  <!--</div>
+                  <div>-->
                     <button
                 type="submit"
                 class="flex items-center justify-center w-full px-5 py-3 mt-3 text-base font-medium text-black border border-transparent rounded-md shadow hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-teal-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0"
@@ -100,7 +100,7 @@
               >
                 Submit
               </button>
-                  </div>
+                  <!--</div>-->
                 </form>
               </div>
             </div>
