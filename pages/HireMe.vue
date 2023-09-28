@@ -44,8 +44,8 @@
               </h2>
               <div class="mt-9">
                 <!-- Contact form -->
-                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">
-                <!--<form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify>-->
+                <!--<form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify action="https://formspree.io/f/xgerepqv" method="POST">-->
+                <form class="grid grid-cols-1 gap-y-6 p-3" name="Contact" netlify>
                   <!--<div>-->
                     <label for="full_name" class="sr-only">Full name</label>
                     <input 
