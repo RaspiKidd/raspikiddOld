@@ -14,7 +14,7 @@
           </h1>
         </div>
       </div>
-      <div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
+      <!--<div class="grid max-w-lg gap-5 mx-auto mt-12 lg:grid-cols-3 lg:max-w-none">
         <ArticleCard
           v-for="article in articles"
           :key="article.content.title"
@@ -25,7 +25,7 @@
           :image="article.content.image.filename"
           :date="article.content.date.toLocaleDateString()"
         />
-      </div>
+      </div> -->
     </div>
     <Footer />
   </div>
