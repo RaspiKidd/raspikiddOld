@@ -86,11 +86,11 @@
                     Why wait? Book your child's spot in our workshops today! Unleash their potential and watch them thrive in the world of programming. <br> Need more information? Book a call now. Let's make coding a journey filled with laughter, learning, and endless possibilities!
                 </p>
                 <div class="mt-6 items-center justify-center gap-x-8 lg:justify-start">
-                    <a href="#" 
+                    <NuxtLink to="/ComingSoon" 
                         class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                         Book Classes
-                    </a>
-                    <a href="#" 
+                    </NuxtLink>
+                    <a href="https://calendly.com/raspikidd/30-min-discovery-call" 
                         class="text-sm font-semibold leading-6 text-grey-900"> 
                         Book a Call 
                         <span aria-hidden="true">
